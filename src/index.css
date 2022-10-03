@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('/src/fonts/proxima_nova_font-webfont.woff2') format('woff2'),
+         url('/src/fonts/proxima_nova_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-hue: 1;
+    --gray-hue: 0;
+    --color-primary: hsl(4, 100%, 25%);
+    --color-primary-variant: hsl(var(--primary-hue), 100%, 40%);
+    --color-secondary: hsl(360, 99%, 49%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-200: hsl(var(--gray-hue), 26%, 100%);
+    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
+    --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
+    --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
+    --color-gray-600: hsl(var(--gray-hue), 100%, 20%);
+    --color-white: #fff;
+    --color-black: #000;
+    --color-grey: #E4E4E4;
+    --color-darkgrey: #434343;
+    --color-fadedred: #B54B4B;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+
+    --transition: all 500ms ease;
+}
+
+/* General Styles */
+
+body {
+    font-family: 'Montserrat', sans-serif, monospace;
+    color: var(--color-black);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: var(--color-white);
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: var(--color-white);
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(--color-darkgrey);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--color-black)
+}
+
+a {
+    color: var(--color-gray-100)
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%
+}
+
+.btn {
+    color: var(--color-white);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-secondary);
+    color: var(--color-gray-600);
+}
+
+.btn.lg {
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.btn.lg:hover {
+    background: var(--color-fadedred);
+    color: var(--color-black);
+}
+
+.btn.sm {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+}
+
+.btn.sm:hover {
+    background: var(--color-gray-100);
+}
+
+section {
+    margin-top: 10rem;
+}
+
+.section__head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section__head span {
+    background: var(--color-fadedred);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    color: var(--color-white);
+    font-size: 1.5rem;
+}
+
+.section__head h2 {
+    color: var(--color-darkgrey)
+}
+
+.card {
+    background: var(--color-darkgrey);
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 0 3rem 0 3rem;
+    transition: var(--transition);
+}
+
+.card:hover {
+    background: var(--color-grey);
+    border-color: var(--color-white);
+    cursor: default;
+}
+
+.card span {
+    width: 3rem;
+    height: 3rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+    border-radius: 1rem;
+    transition: var(--transition);
+}
+
+.card:hover span {
+    background: var(--color-fadedred);
+    color: var(--color-darkgrey);
+}
+
+.card small {
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 500;
+    color: var(--color-grey);
+}
+
+.card:hover small {
+    color: var(--color-fadedred);
+    transition: var(--transition);
+}
+
+.card:hover h4 {
+    color: var(--color-black);
+    transition: var(--transition);
+}
+
+.card:hover .btn.sm {
+    background: var(--color-fadedred);
+    color: var(--color-white);
+}
+
+/* Media Queries for Medium Screens */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Media Queries for Small Screens */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+}
