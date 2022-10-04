@@ -7,6 +7,7 @@ import Sponsors from './pages/sponsors/Sponsors'
 import Bios from './pages/bios/Bios'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='bios' element={<Bios/>}/>
         <Route path='*' element={<NotFound/>}/>
         </Routes>
+        <Footer/>
     </BrowserRouter>
   )
 }
