@@ -149,9 +149,20 @@
     background: var(--color-grey);
 }
 
+.lead:hover h5 {
+    color: var(--color-primary)
+}
+
 .lead__quote {
     font-style: italic;
     margin: 1rem 0 2rem;
+    color: var(--color-grey);
+    transition: var(--transition);
+}
+
+.lead:hover .lead__quote {
+    color: var(--color-black);
+
 }
 
 .card small.lead title {
@@ -177,6 +188,11 @@
     font-size: 1.8rem;
     width: 3rem;
     height: 3rem;
+    transition: var(--transition);
+}
+
+.leads__btn:hover svg {
+    fill: var(--color-fadedred)
 }
 
 /* Footer */
