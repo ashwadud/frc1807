@@ -143,7 +143,7 @@ export const leads = [
     },
     {
         id: 5,
-        name: "Arya Chaudry",
+        name: "aaryan",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Programming Lead",
         avatar: require("./images/logo.png")
