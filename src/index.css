@@ -213,7 +213,7 @@ section {
     position: relative;
     display: grid;
     place-items: center;
-    background: black;
+    background: rgb(0, 0, 0);
 }
 
 .header__container-bg {
