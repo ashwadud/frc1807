@@ -3,7 +3,6 @@ import PagesDirect from '../../components/PagesDirect'
 import FAQs from '../../components/FAQs'
 import Captains from '../../components/Captains'
 import Leads from '../../components/Leads'
-import Footer from '../../components/Footer'
 
 import './home.css'
 
@@ -15,7 +14,6 @@ const Home = () => {
       <FAQs/>
       <Captains/>
       <Leads/>
-      <Footer/>
     </>  
   )
 }

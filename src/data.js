@@ -150,6 +150,86 @@ export const leads = [
     }
 ]
 
+export const sponsors = [
+    {
+        id: 1,
+        name: 'Aluminum Sponsor',
+        desc: 'This package is perfect for beginners who need constant help',
+        price: 100-499,
+        features: [
+            {feature: 'Invitation to our Sponsor Night'},
+            {feature: 'Thank-you letter and team picture'}
+        ]
+    },
+    {
+        id: 2,
+        name: 'Bronze Sponsor',
+        desc: 'This is the perfect package for beginners who know what their doing',
+        price: 500-999,
+        features: [
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
+            {feature: 'Invitation to our Sponsor Night'},
+            {feature: 'Thank-you letter and team picture'},
+            {feature: '2023 Sponsor Plaque'}
+        ]
+    },
+    {
+        id: 3,
+        name: 'Silver Sponsor',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 1000-1999,
+        features: [
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
+            {feature: 'Invitation to our Sponsor Night'},
+            {feature: 'Thank-you letter and team picture'},
+            {feature: '2023 Sponsor Plaque'}
+        ]
+    },
+    {
+        id: 4,
+        name: 'Gold Sponsor',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 2000-4999,
+        features: [
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
+            {feature: 'Your Logo on team shirts worn at competitions'},
+            {feature: 'Invitation to our Sponsor Night'},
+            {feature: 'Thank-you letter and team picture'},
+            {feature: '2023 Sponsor Plaque'}
+        ]
+    },
+    {
+        id: 5,
+        name: 'Diamond Sponsor',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 5000-9999,
+        features: [
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
+            {feature: 'A medium-sized print of your logo on team shirts worn at competitions'},
+            {feature: 'Your logo on the banner and displayed in our pits (stations at competitions)'},
+            {feature: 'VIP invitation to our Sponsor Night'},
+            {feature: 'Thank-you letter and team picture'},
+            {feature: '2023 Sponsor Plaque'}
+        ]
+    },
+    {
+        id: 6,
+        name: 'Platinum Sponsor',
+        desc: 'This is the highest level of sponsorship, and therefore includes the most benefits.',
+        price: 10000,
+        features: [
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
+            {feature: 'A large print of your logo on team shirts worn at competitions'},
+            {feature: 'Your logo on the banner, robot and displayed in our pits (stations at competitions)'},
+            {feature: 'Presentation and demonstartion of robot at your company, or at choice event'},
+            {feature: 'VIP invitation to our Sponsor Night'},
+            {feature: 'Your information on all of our social media outlets and presentations'},
+            {feature: 'Thank-you letter and team picture'},
+            {feature: '2023 Sponsor Plaque'}
+        ]
+    }
+]
+
 export const trainers = [
     {
         id: 1,

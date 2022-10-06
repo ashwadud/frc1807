@@ -26,12 +26,12 @@ const About = () => {
 
     <section className="about__vision">
       <div className="container about__vision-container">
-        <div className="about__section-image">
-          <img src={VisionImage} alt="Vision Image" />
-        </div>
         <div className='about__section-content'>
           <h1>Our Vision</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium cupiditate aliquid harum facilis nisi autem explicabo iusto eius vitae distinctio ea, quidem quasi sunt totam nihil suscipit, neque facere ut.</p>
+        </div>
+        <div className="about__section-image">
+          <img src={VisionImage} alt="Vision Image" />
         </div>
       </div>
     </section>

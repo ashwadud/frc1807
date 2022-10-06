@@ -2,7 +2,7 @@
     border-radius: 50%;
     overflow: hidden;
     transform: skew(15deg);
-    background: black;
+    background: var(--color-grey);
     transition: var(--transition);
 }
 
