@@ -157,8 +157,8 @@ export const sponsors = [
         desc: 'This package is perfect for beginners who need constant help',
         price: 100-499,
         features: [
-            {feature: 'Invitation to our Sponsor Night'},
-            {feature: 'Thank-you letter and team picture'}
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true}
         ]
     },
     {
@@ -167,10 +167,10 @@ export const sponsors = [
         desc: 'This is the perfect package for beginners who know what their doing',
         price: 500-999,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
-            {feature: 'Invitation to our Sponsor Night'},
-            {feature: 'Thank-you letter and team picture'},
-            {feature: '2023 Sponsor Plaque'}
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     },
     {
@@ -179,10 +179,10 @@ export const sponsors = [
         desc: 'This package is perfect for busy people who need home service',
         price: 1000-1999,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
-            {feature: 'Invitation to our Sponsor Night'},
-            {feature: 'Thank-you letter and team picture'},
-            {feature: '2023 Sponsor Plaque'}
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     },
     {
@@ -191,11 +191,11 @@ export const sponsors = [
         desc: 'This package is perfect for busy people who need home service',
         price: 2000-4999,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
-            {feature: 'Your Logo on team shirts worn at competitions'},
-            {feature: 'Invitation to our Sponsor Night'},
-            {feature: 'Thank-you letter and team picture'},
-            {feature: '2023 Sponsor Plaque'}
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
+            {feature: 'Your Logo on team shirts worn at competitions', available: true},
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     },
     {
@@ -204,12 +204,12 @@ export const sponsors = [
         desc: 'This package is perfect for busy people who need home service',
         price: 5000-9999,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
-            {feature: 'A medium-sized print of your logo on team shirts worn at competitions'},
-            {feature: 'Your logo on the banner and displayed in our pits (stations at competitions)'},
-            {feature: 'VIP invitation to our Sponsor Night'},
-            {feature: 'Thank-you letter and team picture'},
-            {feature: '2023 Sponsor Plaque'}
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
+            {feature: 'A medium-sized print of your logo on team shirts worn at competitions', available: true},
+            {feature: 'Your logo on the banner and displayed in our pits (stations at competitions)', available: true},
+            {feature: 'VIP invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     },
     {
@@ -218,14 +218,14 @@ export const sponsors = [
         desc: 'This is the highest level of sponsorship, and therefore includes the most benefits.',
         price: 10000,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page'},
-            {feature: 'A large print of your logo on team shirts worn at competitions'},
-            {feature: 'Your logo on the banner, robot and displayed in our pits (stations at competitions)'},
-            {feature: 'Presentation and demonstartion of robot at your company, or at choice event'},
-            {feature: 'VIP invitation to our Sponsor Night'},
-            {feature: 'Your information on all of our social media outlets and presentations'},
-            {feature: 'Thank-you letter and team picture'},
-            {feature: '2023 Sponsor Plaque'}
+            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
+            {feature: 'A large print of your logo on team shirts worn at competitions', available: true},
+            {feature: 'Your logo on the banner, robot and displayed in our pits (stations at competitions)', available: true},
+            {feature: 'Presentation and demonstartion of robot at your company, or at choice event', available: true},
+            {feature: 'VIP invitation to our Sponsor Night', available: true},
+            {feature: 'Your information on all of our social media outlets and presentations', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     }
 ]

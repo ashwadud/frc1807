@@ -14,7 +14,7 @@ const Footer = () => {
                     <img src={Logo} alt="Footer Logo" />
                 </Link>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dicta omnis eligendi magni deleniti numquam cumque corporis fugiat amet distinctio? Soluta, placeat nesciunt sapiente facilis eligendi natus reiciendis fugiat dolor.
+                    Empowering students to apply engineering, leadership, and design skills in FIRST® Robotics competitions.
                 </p>
                 <div className="footer__socials">
                     <a href="https://instagram.com/frc1807" target="_blank" rel="noreferrer noopener"><AiFillInstagram/></a>

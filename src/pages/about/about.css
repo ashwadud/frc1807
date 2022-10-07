@@ -14,15 +14,15 @@
     transform: skew(0);
 }
 
-.about__section-container h1 {
+.about__section-content h1 {
     margin-bottom: 2rem;
 }
 
-.about__section-container p {
+.about__section-content p {
     margin-bottom: 1rem;
 }
 
-.about__story-container {
+.about__story-container, .about__summary-container {
     display: grid;
     grid-template-columns: 40% 50%;
     gap: 10%;
