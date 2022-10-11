@@ -109,7 +109,28 @@ export const captains = [
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Programming Captain",
         avatar: require("./images/logo.png")
-    }
+    },
+    {
+        id: 6,
+        name: "wududAaryan",
+        quote: "Idk",
+        job: "Design Captain",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 7,
+        name: "Ash Desai",
+        quote: "idk",
+        job: "Electrical Captain",
+        avatar: require("./images/logo.png"),
+    },
+    {
+        id: 8,
+        name: "Random nam",
+        quote: "idk",
+        job: "Statistics Captain",
+        avatar: require("./images/logo.png")
+    },
 ]
 
 export const leads = [
@@ -147,7 +168,28 @@ export const leads = [
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Programming Lead",
         avatar: require("./images/logo.png")
-    }
+    },
+    {
+        id: 6,
+        name: "Desai",
+        quote: "Idk",
+        job: "Design Lead",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 7,
+        name: "Aaryan",
+        quote: "Idk",
+        job: "Electrical Lead",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 8,
+        name: "AD",
+        quote: "Idk",
+        job: "Statistics Lead",
+        avatar: require("./images/logo.png")
+    },
 ]
 
 export const sponsors = [
