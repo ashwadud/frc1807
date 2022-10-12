@@ -150,126 +150,120 @@ export const leads = [
     }
 ]
 
-export const sponsors = [
+export const plans = [
     {
         id: 1,
-        name: 'Aluminum Sponsor',
+        name: 'Silver Package',
         desc: 'This package is perfect for beginners who need constant help',
-        price: 100-499,
+        price: 29.99,
         features: [
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true}
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: false},
+            {feature: 'Sixth Feature', available: false},
+            {feature: 'Seventh Feature', available: false},
+            {feature: 'Seventh Feature Plus', available: false},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Ninth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
         ]
     },
     {
         id: 2,
-        name: 'Bronze Sponsor',
+        name: 'Gold Package',
         desc: 'This is the perfect package for beginners who know what their doing',
-        price: 500-999,
+        price: 49.99,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: true},
+            {feature: 'Sixth Feature', available: true},
+            {feature: 'Seventh Feature', available: true},
+            {feature: 'Seventh Feature Plus', available: true},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Ninth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
         ]
     },
     {
         id: 3,
-        name: 'Silver Sponsor',
+        name: 'Platinum Package',
         desc: 'This package is perfect for busy people who need home service',
-        price: 1000-1999,
+        price: 89.99,
         features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 4,
-        name: 'Gold Sponsor',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 2000-4999,
-        features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
-            {feature: 'Your Logo on team shirts worn at competitions', available: true},
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 5,
-        name: 'Diamond Sponsor',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 5000-9999,
-        features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
-            {feature: 'A medium-sized print of your logo on team shirts worn at competitions', available: true},
-            {feature: 'Your logo on the banner and displayed in our pits (stations at competitions)', available: true},
-            {feature: 'VIP invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 6,
-        name: 'Platinum Sponsor',
-        desc: 'This is the highest level of sponsorship, and therefore includes the most benefits.',
-        price: 10000,
-        features: [
-            {feature: 'Your Logo displayed on the homepage of the website (with link) and our Sponsor Page', available: true},
-            {feature: 'A large print of your logo on team shirts worn at competitions', available: true},
-            {feature: 'Your logo on the banner, robot and displayed in our pits (stations at competitions)', available: true},
-            {feature: 'Presentation and demonstartion of robot at your company, or at choice event', available: true},
-            {feature: 'VIP invitation to our Sponsor Night', available: true},
-            {feature: 'Your information on all of our social media outlets and presentations', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: true},
+            {feature: 'Sixth Feature', available: true},
+            {feature: 'Seventh Feature', available: true},
+            {feature: 'Seventh Feature Plus', available: true},
+            {feature: 'Eighth Feature', available: true},
+            {feature: 'Ninth Feature', available: true},
+            {feature: 'Tenth Feature', available: true},
+            {feature: 'Eleventh Feature', available: true}
         ]
     }
 ]
 
-export const trainers = [
+const MemberImage = require('./images/logo.png')
+
+export const bios = [
     {
         id: 1,
-        // image: Trainer1,
-        name: 'John Doe',
-        job: 'Aerobic Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        image: MemberImage,
+        name: 'Ash Wadud',
+        year: '2026',
+        job: 'Programming/Web Design',
+        socials: ['https://instagram.com/', 'https://twitter.com/']
     },
     {
         id: 2,
-        // image: Trainer2,
-        name: 'Daniel vinyo',
-        job: 'Speed Trainer',
+        image: MemberImage,
+        name: 'Aaryan Desai',
+        year: 2026,
+        job: 'Programming/Web Design',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
-        // image: Trainer3,
-        name: 'Edem Quist',
-        job: 'Flexibility Trainer',
+        image: MemberImage,
+        name: 'Brian Deniz',
+        year: 2026,
+        job: 'Machining',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 4,
-        // image: Trainer4,
-        name: 'Shatta Wale',
-        job: 'Body Composition Trainer',
+        image: MemberImage,
+        name: 'Landon Schaffer',
+        year: 2026,
+        job: 'Build',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 5,
-        // image: Trainer5,
-        name: 'Diana Ayi',
-        job: 'Circuit Trainer',
+        image: MemberImage,
+        name: 'LeBron James',
+        year: 2026,
+        job: 'not on the team',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 6,
-        // image: Trainer6,
-        name: 'Wayne Carter',
+        image: MemberImage,
+        name: 'real rx',
+        year: 2026,
         job: 'Physical Intelligence Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
