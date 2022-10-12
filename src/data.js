@@ -65,12 +65,12 @@ export const faqs = [
     {
         id: 3,
         question: "How many competitions are there throughout the entire season?",
-        answer: "lowkey ion even know"
+        answer: "FRC#1807 normally attends 3 competitions and if they score highly, they are able to advance to a 4th competition and if they advance from there, they are able to participate in a 5th for worlds. "
     },
     {
         id: 4,
         question: "How long is the prep time between each competition",
-        answer: "also have no clue"
+        answer: "Between 1-2 weeks"
     },
 ]
 
@@ -99,7 +99,7 @@ export const captains = [
     {
         id: 4,
         name: "Sydney Miller",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: "Although robotics is a lot of work and many hours, it's worth every second.",
         job: "Build Captain",
         avatar: require("./images/logo.png")
     },
@@ -109,7 +109,28 @@ export const captains = [
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Programming Captain",
         avatar: require("./images/logo.png")
-    }
+    },
+    {
+        id: 6,
+        name: "wududAaryan",
+        quote: "Idk",
+        job: "Design Captain",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 7,
+        name: "Ash Desai",
+        quote: "idk",
+        job: "Electrical Captain",
+        avatar: require("./images/logo.png"),
+    },
+    {
+        id: 8,
+        name: "Random nam",
+        quote: "idk",
+        job: "Statistics Captain",
+        avatar: require("./images/logo.png")
+    },
 ]
 
 export const leads = [
@@ -147,7 +168,28 @@ export const leads = [
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Programming Lead",
         avatar: require("./images/logo.png")
-    }
+    },
+    {
+        id: 6,
+        name: "Desai",
+        quote: "Idk",
+        job: "Design Lead",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 7,
+        name: "Aaryan",
+        quote: "Idk",
+        job: "Electrical Lead",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 8,
+        name: "AD",
+        quote: "Idk",
+        job: "Statistics Lead",
+        avatar: require("./images/logo.png")
+    },
 ]
 
 export const plans = [
