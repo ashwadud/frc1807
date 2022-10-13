@@ -84,7 +84,7 @@ export const captains = [
     },
     {
         id: 2,
-        name: "Ash Wadud",
+        name: "Matthew Jasaitis",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Teacher Advisor",
         avatar: require("./images/logo.png")
@@ -105,91 +105,114 @@ export const captains = [
     },
     {
         id: 5,
-        name: "Drew Springer",
+        name: "Arya Chaudry",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Programming Captain",
         avatar: require("./images/logo.png")
     },
     {
         id: 6,
-        name: "wududAaryan",
+        name: "Evan Kaba",
         quote: "Idk",
         job: "Design Captain",
         avatar: require("./images/logo.png")
     },
     {
         id: 7,
-        name: "Ash Desai",
+        name: "Micheal Sacca",
         quote: "idk",
         job: "Electrical Captain",
         avatar: require("./images/logo.png"),
     },
     {
         id: 8,
-        name: "Random nam",
+        name: "Vanisha Nagali",
+        quote: "idk",
+        job: "Machining Captain",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 9,
+        name: "Josielewski AJ",
         quote: "idk",
         job: "Statistics Captain",
         avatar: require("./images/logo.png")
-    },
+       },
+
 ]
 
 export const leads = [
     {
         id: 1,
-        name: "Ash Wad",
+        name: "Nicholas Marques",
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Teacher Advisor",
+        job: "Build Lead",
         avatar: require("./images/logo.png")
     },
     {
         id: 2,
-        name: "Ash Wadud",
+        name: "Julia Valentino",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Teacher Advisor",
+        job: "Build Lead",
         avatar: require("./images/logo.png")
     },
     {
         id: 3,
-        name: "Wad Ash",
+        name: "Olivia Pusczko",
         quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Business Lead",
+        job: "Build Lead",
         avatar: require("./images/logo.png")
     },
     {
         id: 4,
-        name: "Wadud Ash",
+        name: "Abhinav Murthy",
         quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Build Lead",
         avatar: require("./images/logo.png")
     },
     {
         id: 5,
-        name: "aaryan",
+        name: "Gavin Elwell",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Programming Lead",
+        job: "Design Lead A",
         avatar: require("./images/logo.png")
     },
     {
         id: 6,
-        name: "Desai",
+        name: "Radhika Manvar",
         quote: "Idk",
-        job: "Design Lead",
+        job: "Design Lead A",
         avatar: require("./images/logo.png")
     },
     {
         id: 7,
-        name: "Aaryan",
+        name: "Tia Bajaj",
         quote: "Idk",
-        job: "Electrical Lead",
+        job: "Design Lead B",
         avatar: require("./images/logo.png")
     },
     {
         id: 8,
-        name: "AD",
+        name: "Jacob Roohr",
         quote: "Idk",
-        job: "Statistics Lead",
+        job: "Design Lead B",
         avatar: require("./images/logo.png")
     },
+    {
+        id: 9,
+        name: "Ryan Horn",
+        quote: "Idk",
+        job: "Design Lead B",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 10,
+        name: "Drew Springer",
+        quote: "Idk",
+        job: "Programming Lead",
+        avatar: require("./images/logo.png")
+    },
+    
 ]
 
 export const plans = [
