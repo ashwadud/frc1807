@@ -78,7 +78,7 @@ export const captains = [
     {
         id: 1,
         name: "Robert Tackett",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        quote: "Robotics is the best activity for kids that want to go pro because every kid has a chance to do it.",
         job: "Teacher Advisor",
         avatar: require("./images/logo.png")
     },
@@ -92,7 +92,7 @@ export const captains = [
     {
         id: 3,
         name: "Gabriella Biello",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: "1807 is an environment that fosters education and inspiration. We work hard to create incredible robots but also an incredible family that I am so proud to be a part of.",
         job: "Business Captain",
         avatar: require("./images/logo.png")
     },
@@ -106,7 +106,7 @@ export const captains = [
     {
         id: 5,
         name: "Arya Chaudry",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        quote: "Can you come up with something inspirational and say it's me?",
         job: "Programming Captain",
         avatar: require("./images/logo.png")
     },
@@ -127,14 +127,14 @@ export const captains = [
     {
         id: 8,
         name: "Vanisha Nagali",
-        quote: "idk",
+        quote: "",
         job: "Machining Captain",
         avatar: require("./images/logo.png")
     },
     {
         id: 9,
-        name: "Josielewski AJ",
-        quote: "idk",
+        name: "AJ Josielewski",
+        quote: "",
         job: "Statistics Captain",
         avatar: require("./images/logo.png")
        },
@@ -172,28 +172,28 @@ export const leads = [
     },
     {
         id: 5,
+        name: "Andrew Sain",
+        quote: "It's a lot of work but its a lot of fun.",
+        job: "Design Lead A",
+        avatar: require("./images/logo.png")
+    },
+    {
+        id: 6,
         name: "Gavin Elwell",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Design Lead A",
         avatar: require("./images/logo.png")
     },
     {
-        id: 6,
+        id: 7,
         name: "Radhika Manvar",
         quote: "Idk",
         job: "Design Lead A",
         avatar: require("./images/logo.png")
     },
     {
-        id: 7,
-        name: "Tia Bajaj",
-        quote: "Idk",
-        job: "Design Lead B",
-        avatar: require("./images/logo.png")
-    },
-    {
         id: 8,
-        name: "Jacob Roohr",
+        name: "Tia Bajaj",
         quote: "Idk",
         job: "Design Lead B",
         avatar: require("./images/logo.png")
@@ -207,76 +207,97 @@ export const leads = [
     },
     {
         id: 10,
-        name: "Drew Springer",
-        quote: "Idk",
-        job: "Programming Lead",
+        name: "Jacob Roohr",
+        quote: "",
+        job: "Design Lead B",
         avatar: require("./images/logo.png")
     },
-    
+    {
+        id: 11,
+        name: "Drew Springer",
+        quote: "",
+        job: "Programming Lead",
+        avatar: require("./images/logo.png")
+    }
 ]
 
 export const plans = [
     {
         id: 1,
-        name: 'Silver Package',
+        name: 'Aluminum Sponsor',
         desc: 'This package is perfect for beginners who need constant help',
-        price: 29.99,
+        price: 100-499,
         features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: false},
-            {feature: 'Sixth Feature', available: false},
-            {feature: 'Seventh Feature', available: false},
-            {feature: 'Seventh Feature Plus', available: false},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false}
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true}
         ]
     },
     {
         id: 2,
-        name: 'Gold Package',
+        name: 'Bronze Sponsor',
         desc: 'This is the perfect package for beginners who know what their doing',
-        price: 49.99,
+        price: 500-999,
         features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false}
+            {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     },
     {
         id: 3,
-        name: 'Platinum Package',
+        name: 'Silver Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: 89.99,
+        price: 1000-1999,
         features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: true},
-            {feature: 'Ninth Feature', available: true},
-            {feature: 'Tenth Feature', available: true},
-            {feature: 'Eleventh Feature', available: true}
+            {feature: 'Your name displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
+        ]
+    },
+    {
+        id: 4,
+        name: 'Gold Sponsor',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 2000-4999,
+        features: [
+            {feature: 'Your logo displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
+            {feature: 'Your logo on team shirts worn at competitions', available: true},
+            {feature: 'Your logo on the team banner displayed at competitions', available: true},
+            {feature: 'Invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
+        ]
+    },
+    {
+        id: 5,
+        name: 'Diamond Sponsor',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 5000-9999,
+        features: [
+            {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
+            {feature: 'A medium-sized print of your logo on team shirts worn at competitions', available: true},
+            {feature: 'Your logo on the banner and displayed in our pits (stations at competitions)', available: true},
+            {feature: 'VIP invitation to our Sponsor Night', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
+        ]
+    },
+    {
+        id: 6,
+        name: 'Platinum Sponsor',
+        desc: 'This package is perfect for busy people who need home service',
+        price: 10000,
+        features: [
+            {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
+            {feature: 'A large print of your logo on team shirts worn at competitions', available: true},
+            {feature: 'Your logo on the banner, robot and displayed in our pits (stations at competitions)', available: true},
+            {feature: 'Presentation and demonstration of robot at your company or at choice event', available: true},
+            {feature: 'VIP invitation to our Sponsor Night', available: true},
+            {feature: 'Your information on all of our social media outlets and presentations', available: true},
+            {feature: 'Thank-you letter and team picture', available: true},
+            {feature: '2023 Sponsor Plaque', available: true}
         ]
     }
 ]
