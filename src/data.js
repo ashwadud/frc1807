@@ -38,9 +38,9 @@ export const pagesdirect = [
     {
         id: 2,
         icon: <FaRobot/>,
-        title: "Blog?",
-        info: "personally dont think there should be a blog; gets hard to maintain",
-        path: "/programs/222"
+        title: "Sponsors",
+        info: "Learn more about our sponsors and how you can be involved.",
+        path: "/sponsors"
     },
     {
         id: 3,
