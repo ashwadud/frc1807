@@ -85,7 +85,7 @@ export const captains = [
     {
         id: 2,
         name: "Matthew Jasaitis",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: "Work smarter, work harder.",
         job: "Teacher Advisor",
         avatar: require("./images/logo.png")
     },
@@ -113,14 +113,14 @@ export const captains = [
     {
         id: 6,
         name: "Evan Kaba",
-        quote: "Idk",
+        quote: "",
         job: "Design Captain",
         avatar: require("./images/logo.png")
     },
     {
         id: 7,
         name: "Micheal Sacca",
-        quote: "idk",
+        quote: "Postponed",
         job: "Electrical Captain",
         avatar: require("./images/logo.png"),
     },
@@ -145,14 +145,14 @@ export const leads = [
     {
         id: 1,
         name: "Nicholas Marques",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        quote: "Its a great learning enviroment to work in, you learn new stuff everyday and everyone is so supportive to each other.",
         job: "Build Lead",
         avatar: require("./images/logo.png")
     },
     {
         id: 2,
         name: "Julia Valentino",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: "Learning and growing with people that have essentially become my second family and exploring the world of mechanical engineering with 1807 has been amazing",
         job: "Build Lead",
         avatar: require("./images/logo.png")
     },
@@ -166,7 +166,7 @@ export const leads = [
     {
         id: 4,
         name: "Abhinav Murthy",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: ".",
         job: "Build Lead",
         avatar: require("./images/logo.png")
     },
@@ -180,7 +180,7 @@ export const leads = [
     {
         id: 6,
         name: "Gavin Elwell",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        quote: "Postponed.",
         job: "Design Lead A",
         avatar: require("./images/logo.png")
     },
@@ -214,8 +214,8 @@ export const leads = [
     },
     {
         id: 11,
-        name: "Drew Springer",
-        quote: "",
+        name: "Drew Springer Heller",
+        quote: "Postponed",
         job: "Programming Lead",
         avatar: require("./images/logo.png")
     }
