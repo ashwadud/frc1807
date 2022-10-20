@@ -127,7 +127,7 @@ export const captains = [
     {
         id: 8,
         name: "Vanisha Nagali",
-        quote: "",
+        quote: "Machine does the work, I just stand there.",
         job: "Machining Captain",
         avatar: require("./images/logo.png")
     },
@@ -159,7 +159,7 @@ export const leads = [
     {
         id: 3,
         name: "Olivia Pusczko",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: "I rarely build, I'm always taking care of children.",
         job: "Build Lead",
         avatar: require("./images/logo.png")
     },
@@ -208,7 +208,7 @@ export const leads = [
     {
         id: 10,
         name: "Jacob Roohr",
-        quote: "",
+        quote: "Everything works in the CAD.",
         job: "Design Lead B",
         avatar: require("./images/logo.png")
     },
