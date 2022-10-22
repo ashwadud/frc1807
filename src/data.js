@@ -383,7 +383,7 @@ export const bios = [
         name: 'Remy Fortsch',
         year: 2025,
         job: 'Programming',
-        socials: ['https://instagram.com/']
+        socials: ['https://www.youtube.com/c/SirLampsALot']
     },
     {
         id: 11,
