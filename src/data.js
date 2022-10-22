@@ -319,7 +319,7 @@ export const bios = [
         name: 'Aaryan Desai',
         year: 2026,
         job: 'Programming/Web Design',
-        socials: ['https://www.instagram.com/aaryan_.desai/']
+        socials: ['https://www.instagram.com/aaryan._.desai/']
     },
     {
         id: 3,
@@ -383,7 +383,8 @@ export const bios = [
         name: 'Remy Fortsch',
         year: 2025,
         job: 'Programming',
-        socials: ['https://www.youtube.com/c/SirLampsALot']
+        socials: ['https://instagram.com/']
+        
     },
     {
         id: 11,
