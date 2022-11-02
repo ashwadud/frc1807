@@ -215,7 +215,7 @@ export const leads = [
     {
         id: 11,
         name: "Drew Springer Heller",
-        quote: "Postponed",
+        quote: "I'll get back to you with that",
         job: "Programming Lead",
         avatar: require("./images/logo.png")
     }

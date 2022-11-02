@@ -15,10 +15,18 @@
 
 .member h3 {
     margin-top: 2rem;
+    transition: var(--transition);
+}
+
+.member h4 {
+    margin-top: 0.5rem;
+    transition: var(--transition);
 }
 
 .member p {
     margin-top: 0.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
 }
 
 .member__socials {
@@ -39,6 +47,10 @@
 
 .member:hover a {
     background: var(--color-darkgrey);
+}
+
+.member:hover h3, .member:hover h4, .member:hover p {
+    color: var(--color-black);
 }
 
 /* Media Queries for Medium Screens */
