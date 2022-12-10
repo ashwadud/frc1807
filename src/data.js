@@ -55,16 +55,16 @@ export const faqs = [
     {
         id: 1,
         question: "How long is the season?",
-        answer: "The season is broken up into different pieces for us. But, generally the season lasts the entire school year."
+        answer: "Our season is broken up into different parts. But, the team is a year-long commitment."
     },
     {
         id: 2,
-        question: "What grades is the team open to?",
+        question: "What grades are the team open to?",
         answer: "FRC#1807 is open to anybody that currently attends Allentown High School. Grades 9-12 can come to the information meeting to learn about the team. Dates and information is announced in the beginning of each school year"
     },
     {
         id: 3,
-        question: "How many competitions are there throughout the entire season?",
+        question: "How many competitions are in a year?",
         answer: "FRC#1807 normally attends 3 competitions and if they score highly, they are able to advance to a 4th competition and if they advance from there, they are able to participate in a 5th for worlds. "
     },
     {
@@ -120,7 +120,7 @@ export const captains = [
     {
         id: 7,
         name: "Micheal Sacca",
-        quote: "Postponed",
+        quote: "Keep moving forward!",
         job: "Electrical Captain",
         avatar: require("./images/logo.png"),
     },
@@ -131,13 +131,6 @@ export const captains = [
         job: "Machining Captain",
         avatar: require("./images/logo.png")
     },
-    {
-        id: 9,
-        name: "AJ Josielewski",
-        quote: "",
-        job: "Statistics Captain",
-        avatar: require("./images/logo.png")
-       },
 
 ]
 
