@@ -1,7 +1,5 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
-import {AiFillMail} from 'react-icons/ai'
-import {BsInstagram}  from 'react-icons/bs'
 import {bios} from '../../data'
 import Member from '../../components/Member'
 
@@ -16,12 +14,8 @@ const Bios = () => {
     <section className="members">
       <div className="container members__container">
         {
-          bios.map(({id, image, name, year, job, socials}) => {
-          return <Member key={id} image={image} name={name} year={year} job={job} socials={
-            [
-              {icon: <BsInstagram/>, link: socials[0]}
-            ]
-          }/>
+          bios.map(({id, image, name, year, job}) => {
+          return <Member key={id} image={image} name={name} year={year} job={job} />
           })
         }
       </div>

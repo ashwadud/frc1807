@@ -29,22 +29,6 @@
     transition: var(--transition);
 }
 
-.member__socials {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
-}
-
-.member__socials a {
-    font-size: 0.7rem;
-    background: var(--color-fadedred);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    transition: var(--transition);
-}
-
 .member:hover a {
     background: var(--color-darkgrey);
 }

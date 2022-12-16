@@ -1,7 +1,7 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import Card from '../../UI/Card'
-import { plans } from '../../data'
+import { sponsors } from '../../data'
 import './sponsors.css'
 
 const Sponsors = () => {
@@ -13,7 +13,7 @@ const Sponsors = () => {
     <section className='sponsors'>
       <div className="container sponsors__container">
         {
-          plans.map(({id, name, desc, price, features}) => {
+          sponsors.map(({id, name, desc, price, features}) => {
             return <Card key={id} className='sponsor'>
               <h3>{name}</h3>
               <small>{desc}</small>

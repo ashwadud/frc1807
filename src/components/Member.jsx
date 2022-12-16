@@ -9,13 +9,6 @@ const Member = ({image, name, year, job, socials}) => {
         <h3>{name}</h3>
         <h4>{year}</h4>
         <p>{job}</p>
-        <div className="member__socials">
-            {
-                socials.map(({icon, link}, index) => {
-                    return <a key={index} href={link} target="_blank" rel="noreffer noopener">{icon}</a>
-                })
-            }
-        </div>
     </Card>
   )
 }

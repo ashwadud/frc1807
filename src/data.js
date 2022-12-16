@@ -214,12 +214,12 @@ export const leads = [
     }
 ]
 
-export const plans = [
+export const sponsors = [
     {
         id: 1,
         name: 'Aluminum Sponsor',
         desc: 'This package is perfect for beginners who need constant help',
-        price: 100-499,
+        price: '100 to 499',
         features: [
             {feature: 'Invitation to our Sponsor Night', available: true},
             {feature: 'Thank-you letter and team picture', available: true}
@@ -229,7 +229,7 @@ export const plans = [
         id: 2,
         name: 'Bronze Sponsor',
         desc: 'This is the perfect package for beginners who know what their doing',
-        price: 500-999,
+        price: '500 to 999',
         features: [
             {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
             {feature: 'Invitation to our Sponsor Night', available: true},
@@ -241,7 +241,7 @@ export const plans = [
         id: 3,
         name: 'Silver Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: 1000-1999,
+        price: '1000 to 1999',
         features: [
             {feature: 'Your name displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
             {feature: 'Invitation to our Sponsor Night', available: true},
@@ -253,7 +253,7 @@ export const plans = [
         id: 4,
         name: 'Gold Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: 2000-4999,
+        price: '2000 to 4999',
         features: [
             {feature: 'Your logo displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
             {feature: 'Your logo on team shirts worn at competitions', available: true},
@@ -267,7 +267,7 @@ export const plans = [
         id: 5,
         name: 'Diamond Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: 5000-9999,
+        price: '5000 to 9999',
         features: [
             {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
             {feature: 'A medium-sized print of your logo on team shirts worn at competitions', available: true},
@@ -281,7 +281,7 @@ export const plans = [
         id: 6,
         name: 'Platinum Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: 10000,
+        price: '10000',
         features: [
             {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
             {feature: 'A large print of your logo on team shirts worn at competitions', available: true},
