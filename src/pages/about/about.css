@@ -1,6 +1,7 @@
 .about__section-image {
     border-radius: 50%;
     overflow: hidden;
+    height:60vh;
     transform: skew(15deg);
     background: var(--color-grey);
     transition: var(--transition);
@@ -16,6 +17,7 @@
 
 .about__section-content h1 {
     margin-bottom: 2rem;
+    color:var(--color-grey);
 }
 
 .about__section-content p {

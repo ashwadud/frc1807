@@ -1,6 +1,6 @@
 import Card from '../UI/Card'
 
-const Member = ({image, name, year, job, socials}) => {
+const Member = ({image, name, year, job}) => {
   return (
     <Card className="member">
         <div className="member__img">

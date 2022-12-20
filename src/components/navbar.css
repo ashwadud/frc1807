@@ -1,14 +1,14 @@
 nav {
     height: 5rem;
     width: 100vw;
-    background: var(--color-grey);
+    background: var(--color-darkgrey);
     display: grid;
     place-items: center;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2)
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4)
 }
 
 /* Shows on smaller screens */
@@ -39,7 +39,8 @@ nav {
 
 .nav__links a {
     transition: var(--transition);
-    color: var(--color-black)
+    color: var(--color-teamgrey);
+    font-weight: 600;
 }
 
 .nav__links a:hover {
@@ -55,7 +56,7 @@ nav {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: var(--color-grey);
+    background: var(--color-darkgrey);
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
@@ -122,7 +123,7 @@ nav {
     }
 
     .nav__links li a {
-        background-color: var(--color-grey);
+        background-color: var(--color-darkgrey);
         height: 100%;
         width: 100%;
         display: flex;

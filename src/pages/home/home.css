@@ -4,33 +4,49 @@
     display: grid;
     place-items: center;
     margin-top: 3rem;
+    background: url(/src/images/teampicture.jpg);
+    background-size: 100%;
+    background-color: rgb(84, 84, 84);
+    background-blend-mode: multiply;
 }
 
 .main__header-container {
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
+    z-index:5;
+    margin-left: 100vh;
 }
 
-.main__header-left {
+.main__header-center {
     margin-top: -3rem;
+    text-align: center;
 }
 
-.main__header-left h4 {
-    margin-bottom: 1rem;
-    color: var(--color-secondary);
-    font-weight: 400;
+.main__header-center-image {
+    width:25rem;
+    justify-content: center;
 }
 
-.main__header-left p {
+.main__header-center h1 {
+    color: var(--color-white);
+}
+
+.main__header-center p {
     margin: 1rem 0 3.5rem;
     font-size: 1.1rem;
+    color: var(--color-white);
 }
 
-.main__header-right {
+.main__header-center .btn.lg {
+    margin-right: 3rem;
+}
+
+/* .main__header-right {
     display: grid;
     place-items: center;
     position: relative;
@@ -52,12 +68,13 @@
 
 .main__header-right:hover .main__header-circle {
     filter: blur(15px);
-}
+} */
 
 /* Pages Redirect */
 
 .pagesdirect {
     margin-top: 4rem;
+    background:var(--color-darkgrey);
 }
 
 .pages__wrapper {
@@ -118,6 +135,10 @@
 .leads {
     width: 50rem;
     margin-inline: auto;
+}
+
+.leads_container {
+    background: var(--color-black);
 }
 
 .leads__head {
@@ -306,12 +327,13 @@ footer {
         height: 100vh;
     }
 
-    .main__header-image, .main__header-circle {
+    .main__header-center-image {
         display: none;
     }
 
     .main__header-container {
         grid-template-columns: 1fr;
+        margin-left: 1rem;
     }
 
     .pages__wrapper {

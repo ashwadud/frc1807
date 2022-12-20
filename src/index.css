@@ -34,7 +34,8 @@
     --color-white: #fff;
     --color-black: #000;
     --color-grey: #E4E4E4;
-    --color-darkgrey: #434343;
+    --color-darkgrey: #232323;
+    --color-teamgrey: #5a5a5a;
     --color-fadedred: #B54B4B;
 
     --container-width-lg: 80%;
@@ -50,7 +51,7 @@ body {
     color: var(--color-black);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-white);
+    background: var(--color-darkgrey);
 }
 
 .container {
@@ -108,7 +109,7 @@ img {
 }
 
 .btn.lg:hover {
-    background: var(--color-fadedred);
+    background: var(--color-grey);
     color: var(--color-black);
 }
 
@@ -140,7 +141,7 @@ section {
 }
 
 .section__head h2 {
-    color: var(--color-darkgrey)
+    color: var(--color-grey)
 }
 
 .card {
@@ -204,7 +205,7 @@ section {
     margin-top: 5rem;
     height: 20rem;
     overflow: hidden;
-    border-bottom: 2px solid var(--color-grey);
+    filter: drop-shadow(0 0 0.75rem var(--color-black));
 }
 
 .header__container {
