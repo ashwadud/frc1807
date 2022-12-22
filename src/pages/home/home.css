@@ -42,15 +42,54 @@
     color: var(--color-white);
 }
 
-.main__header-center span {
-    display: block;
-    height: 100%;
-    padding-left: 10px;
-    animation: spin_words 6s infinite
-}
-
 .main__header-center .btn.lg {
     margin-right: 3rem;
+}
+
+.outer-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-heading {
+    border: 0px solid #ddd;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.inner-heading span {
+    position: relative;
+    color: var(--color-secondary);
+    animation: animation 10s ease infinite;
+}
+
+@keyframes animation {
+    0%,
+    100% {
+        top:0;
+    }
+
+    20% {
+        top: 0;
+    }
+    25% {
+        top: -50px;
+    }
+    45% {
+        top: -50px;
+    }
+    50% {
+        top:-100px;
+    }
+    70% {
+        top:-100px;
+    }
 }
 
 /* .main__header-right {
@@ -228,10 +267,11 @@
 
 footer {
     background: var(--color-darkgrey);
-    margin-top: 7rem;
-    padding-top: 7rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
     font-size: 0.9rem;
     color: var(--color-white);
+    border: 5px black;
 }
 
 .footer__container {
@@ -264,7 +304,7 @@ footer {
 }
 
 .footer__socials a {
-    background: var(--color-grey);
+    background: var(--color-primary);
     padding: 0.7rem;
     border: 1px solid transparent;
     border-radius: 0.6rem;
@@ -272,7 +312,7 @@ footer {
 }
 
 .footer__socials a svg {
-    color: var(--color-secondary)
+    color: var(--color-grey)
 }
 
 .footer__socials a:hover {
