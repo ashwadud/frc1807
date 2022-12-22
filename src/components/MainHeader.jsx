@@ -1,12 +1,18 @@
 import {Link} from 'react-router-dom'
-import Image from '../images/logo.png'
 
 const MainHeader = () => {
   return (
     <header className="main__header">
       <div className="main__header-container">
         <div className="main__header-center">
-          <h1>Allentown Robotics</h1>
+          <h1>
+            <div class="words">
+              <span>Allentown</span>
+              <span>Redbird</span>
+              <span>Blackbird</span> 
+            </div>
+            
+            Robotics</h1>
           <p>
           Empowering students to apply engineering, leadership, and design skills in the FIRST Robotics Competition
           </p>

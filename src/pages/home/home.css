@@ -42,6 +42,13 @@
     color: var(--color-white);
 }
 
+.main__header-center span {
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    animation: spin_words 6s infinite
+}
+
 .main__header-center .btn.lg {
     margin-right: 3rem;
 }
