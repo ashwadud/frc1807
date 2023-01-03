@@ -24,6 +24,14 @@ export const links = [
     {
         name: "Bios",
         path: "/bios"
+
+    },
+
+    {
+        name: "Robots",
+        path: "/robots"
+  
+
     },
 ]
 
@@ -31,9 +39,9 @@ export const pagesdirect = [
     {
         id: 1,
         icon: <FaRobot/>,
-        title: "Our History",
-        info: "Learn about the creation of Redbird Robotics in 2006.",
-        path: "/about"
+        title:  "Robots",
+        info: "Check out the different robots we've made",
+        path: "/robots"
     },
     {
         id: 2,
@@ -45,9 +53,9 @@ export const pagesdirect = [
     {
         id: 3,
         icon: <FaRobot/>,
-        title: "Upcoming Events",
-        info: "Check our calendar to keep up to date with meetings, competitions, and other events.",
-        path: "/calendar"
+        title: "Members",
+        info: "Check out our team and mentors of 1807 and 1812.",
+        path: "/bios"
     },
 ]
 
