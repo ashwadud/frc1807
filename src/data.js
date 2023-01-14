@@ -303,6 +303,66 @@ export const sponsors = [
     }
 ]
 
+const Robot2011 = require('./images/robots/robot11.JPG')
+const Robot2012 = require('./images/robots/robot12.JPG')
+const Robot2013 = require('./images/robots/robot13.JPG')
+const Robot2018 = require('./images/robots/robot18.JPG')
+const Robot2019 = require('./images/robots/robot19.JPG')
+const Robot2020 = require('./images/robots/robot20.JPG')
+const Robot2021 = require('./images/robots/robot21.jpg')
+
+export const robots = [
+    {
+        id: 1,
+        image: Robot2011,
+        game: 'Logomotion',
+        year: '2010-11',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+    {
+        id: 2,
+        image: Robot2012,
+        game: 'Rebound Rumble',
+        year: '2011-12',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+    {
+        id: 3,
+        image: Robot2013,
+        game: 'Ultimate Ascent',
+        year: '2012-13',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+    {
+        id: 4,
+        image: Robot2018,
+        game: 'FIRST Power Up',
+        year: '2017-18',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+    {
+        id: 5,
+        image: Robot2019,
+        game: 'Destination: Deep Space',
+        year: '2018-19',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+    {
+        id: 6,
+        image: Robot2020,
+        game: 'Infinite Recharge',
+        year: '2020-21',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+    {
+        id: 7,
+        image: Robot2021,
+        game: 'Infinite Recharge',
+        year: '2021-22',
+        docs: ['https://www.instagram.com/ash.wadud/']
+    },
+]
+
 const MemberImage = require('./images/logo.png')
 
 export const bios = [

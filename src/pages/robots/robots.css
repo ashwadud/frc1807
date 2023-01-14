@@ -1,289 +1,77 @@
-.Robots__container {
-background-image: url(/src/images/teampicture.jpg);
+.robots__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
 }
 
-
-
-.container_robots {
-
-width: 1000px;
-position:relative;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+.card.robot {
+    padding: 1rem;
 }
 
-.container_robots .card {
-    position: relative;
-    }
-
-
-    
-.container_robots .card .face {
-width: 300px;
-height: 200px;
-transition: 4;
-position: relative;
+.robot__img {
+    border-radius: 0 2rem;
+    overflow: hidden;
 }
 
-.container_robots .card .face.face1{
-    position: relative;
+.robot h3 {
+    margin-top: 2rem;
+    transition: var(--transition);
+}
+
+.robot h4 {
+    margin-top: 0.5rem;
+    transition: var(--transition);
+}
+
+.robot p {
+    margin-top: 0.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+.robots_docs {
     display: flex;
+    gap: 1rem;
     justify-content: center;
-    align-content:center;
     align-items: center;
-    z-index: 1;
-    
-  }
-
-  .container_robots .card:hover .face.face1{
-    transform: translateY(0);
-    box-shadow:
-      inset 0 0 60px whitesmoke,
-      inset 20px 0 80px red,
-      inset -20px 0 80px black,
-      inset 20px 0 300px red,
-      inset -20px 0 300px black,
-      0 0 50px #fff,
-      -10px 0 80px red,
-      10px 0 80px black;
-  }
-
-  .container_robots .card .face.face1 .content{
-    opacity: .2;
-    transition:  0.5s;
-    text-align: center;
-  }
-
-  .container_robots .card:hover .face.face1 .content{
-    opacity: 1;
-   
-  }
-    
-  .container_robots .card .face.face1 .content i{
-    font-size: 3em;
-    color: white;
-    display: inline-block;
-     
-  }
-
-  .container_robots .card .face.face1 .content h3{
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    
-  
-  }
-
-  .container_robots .card .face.face1 .content a{
-    transition: .5s;
- }
-
- .container_robots .card .face.face2{
-    position: relative;
-    background: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-   box-sizing: border-box;
-   box-shadow: 0 20px 50px rgba(0,0,0,.8);
-   transform: translateY(-100px);
- }
-
- .container_robots .card:hover .face.face2{
-    transform: translateY(0);
-
-
+    margin: 2rem 0;
 }
 
+.robots_docs a {
+    font-size: 0.7rem;
+    background: var(--color-darkgrey);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    transition: var(--transition);
+}
 
-.container_robots2 {
+.robot:hover a {
+    background: var(--color-primary);
+}
 
-    width: 1000px;
-    position:relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.robot:hover h3, .robot:hover h4, .robot:hover p {
+    color: var(--color-black);
+}
+
+/* Media Queries for Medium Screens */
+
+@media screen and (max-width: 1024px) {
+    .robots__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
     }
-    
-    .container_robots2 .card {
-        position: relative;
-        }
-    
-    
-        
-    .container_robots2 .card .face {
-    width: 300px;
-    height: 200px;
-    transition: 4;
-    position: relative;
-    }
-    
-    .container_robots2 .card .face.face1{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-content:center;
-        align-items: center;
-        z-index: 1;
-        
-      }
-    
-      .container_robots2 .card:hover .face.face1{
-        transform: translateY(0);
-        box-shadow:
-          inset 0 0 60px whitesmoke,
-          inset 20px 0 80px red,
-          inset -20px 0 80px black,
-          inset 20px 0 300px red,
-          inset -20px 0 300px black,
-          0 0 50px #fff,
-          -10px 0 80px red,
-          10px 0 80px black;
-      }
-    
-      .container_robots2 .card .face.face1 .content{
-        opacity: .2;
-        transition:  0.5s;
-        text-align: center;
-      }
-    
-      .container_robots2 .card:hover .face.face1 .content{
-        opacity: 1;
-       
-      }
-        
-      .container_robots2 .card .face.face1 .content i{
-        font-size: 3em;
-        color: white;
-        display: inline-block;
-         
-      }
-    
-      .container_robots2 .card .face.face1 .content h3{
-        font-size: 1em;
-        color: white;
-        text-align: center;
-        
-      
-      }
-    
-      .container_robots2 .card .face.face1 .content a{
-        transition: .5s;
-     }
+}
 
-    
-     .container_robots2 .card:hover .face.face2{
-        transform: translateY(0);
-    
-    
+/* Media Queries for Small Screens */
+
+@media screen and (max-width: 600px) {
+    .robots__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
-.container_robots2 .card .face.face2 .content p, a{
-    font-size: 10pt;
-    margin: 0 ;
-    padding: 0;
-    color:#333;
-  }
-
-  .container_robots2 .card .face.face2 .content a{
-    text-decoration:none;
-    color: black;
-    box-sizing: border-box;
-    outline : 1px dashed #333;
-    padding: 10px;
-    margin: 15px 0 0;
-    display: inline-block;
-  }
-
-  .container_robots2 .card .face.face2 .content a:hover{
-    background: #333 ;
-    color: whitesmoke; 
-    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
-  }
-
-
-  .container_robots3 {
-
-    width: 1000px;
-    position:relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    .card.robot {
+        width: 90%;
+        margin-inline: auto;
     }
-    
-    .container_robots3 .card {
-        position: relative;
-        }
-    
-    
-        
-    .container_robots3 .card .face {
-    width: 300px;
-    height: 200px;
-    transition: 4;
-    position: relative;
-    }
-    
-    .container_robots3 .card .face.face1{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-content:center;
-        align-items: center;
-        z-index: 1;
-        
-      }
-    
-      .container_robots3 .card:hover .face.face1{
-        transform: translateY(0);
-        box-shadow:
-          inset 0 0 60px whitesmoke,
-          inset 20px 0 80px red,
-          inset -20px 0 80px black,
-          inset 20px 0 300px red,
-          inset -20px 0 300px black,
-          0 0 50px #fff,
-          -10px 0 80px red,
-          10px 0 80px black;
-      }
-    
-      .container_robots3 .card .face.face1 .content{
-        opacity: .2;
-        transition:  0.5s;
-        text-align: center;
-      }
-    
-      .container_robots3 .card:hover .face.face1 .content{
-        opacity: 1;
-       
-      }
-        
-      .container_robots3 .card .face.face1 .content i{
-        font-size: 3em;
-        color: white;
-        display: inline-block;
-         
-      }
-    
-      .container_robots3 .card .face.face1 .content h3{
-        font-size: 1em;
-        color: white;
-        text-align: center;
-        
-      
-      }
-    
-      .container_robots3 .card .face.face1 .content a{
-        transition: .5s;
-     }
-    
-   
-    
-     .container_robots3 .card:hover .face.face2{
-        transform: translateY(0);
-    
-    
-    }
-
+}

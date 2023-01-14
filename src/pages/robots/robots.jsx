@@ -1,77 +1,32 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
-
+import {robots} from '../../data'
+import Robot from '../../components/Robot'
+import {SlDocs} from 'react-icons/sl'
+import {AiFillGithub} from 'react-icons/ai'
 import './robots.css'
 
 const Robots = () => {
-    return (
-      <>
-        <html>
-         <Header title="Robots" image={HeaderImage}>
-          View our different Robots over the years.
-        </Header>
-          <body>
-          <script src="https://kit.fontawesome.com/95a02bd20d.js">
-            </script>
-<section className='Robots'>
-<div class="container_Robots">
-  <div class="card">
-   <div class="face face1">
-    <div class="content">
-      <i class="fab fa-Robots"></i>
-      <h3>Robots</h3>
+  return (
+    <>
+    <Header title="Robots" image={HeaderImage}>
+      View the list of all of our team members and their contact information.
+    </Header>
+    <section className="robots">
+      <div className="container robots__container">
+        {
+          robots.map(({id, image, game, year, docs}) => {
+          return <Robot key={id} image={image} game={game} year={year} docs={
+            [
+              {icon: <SlDocs/>, link: docs[0]},
+            ]
+          } />
+          })
+        }
       </div>
-      </div>
-      </div>
-      </div>
-      <div class="face face2">
-      <div class="content">
-      <a href="#" type="button">Read More</a>
+    </section>
+    </>
+  )
+}
 
-      </div>
-      </div>
-      
-     
-      </section>
-      <div class="container_Robots2">
-      <div class="card">
-       <div class="face face1">
-         <div class="content">
-      <i class="fab fa-Robot2"></i>               <h3>Robot 2</h3>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           
-           <a href="#" type="button">Read More</a>
-         </div>
-       </div>
-    </div>
-    </div>
-
-    <div class="container_Robots3">
-    <div class="card">
-       <div class="face face1">
-         <div class="content">
-           <i class="fab fa-Robot3"></i>
-            <h3>Robot 3</h3>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           
-           <a href="#" type="button">Read More</a>
-         </div>
-       </div>
-    </div>
-    </div>
-
-
-          </body>
-        </html>
-        </>
-        
-    )
-  }
-
-  export default Robots
+export default Robots

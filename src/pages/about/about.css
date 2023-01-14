@@ -17,11 +17,12 @@
 
 .about__section-content h1 {
     margin-bottom: 2rem;
-    color:var(--color-grey);
+    color:var(--color-white);
 }
 
 .about__section-content p {
     margin-bottom: 1rem;
+    color: var(--color-grey);
 }
 
 .about__story-container, .about__summary-container {
