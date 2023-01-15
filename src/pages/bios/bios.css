@@ -29,8 +29,25 @@
     transition: var(--transition);
 }
 
-.member:hover a {
+.members_docs {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.members_docs a {
+    font-size: 1.25rem;
+    width: 3.1rem;
     background: var(--color-darkgrey);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    transition: var(--transition);
+}
+
+.member:hover a {
+    background: var(--color-primary);
 }
 
 .member:hover h3, .member:hover h4, .member:hover p {

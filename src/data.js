@@ -12,6 +12,11 @@ export const links = [
     },
 
     {
+        name: "Robots",
+        path: "/robots"
+    },
+
+    {
         name: "Calendar",
         path: "/calendar"
     },
@@ -24,13 +29,6 @@ export const links = [
     {
         name: "Bios",
         path: "/bios"
-
-    },
-
-    {
-        name: "Robots",
-        path: "/robots"
-  
 
     },
 ]
@@ -372,7 +370,7 @@ export const bios = [
         name: 'Ash Wadud',
         year: '2026',
         job: 'Programming/Web Design',
-        socials: ['https://www.instagram.com/ash.wadud/']
+        docs: '/pages/bios/team/class-2026/ash-wadud'
     },
     {
         id: 2,
@@ -380,7 +378,7 @@ export const bios = [
         name: 'Aaryan Desai',
         year: 2026,
         job: 'Programming/Web Design',
-        socials: ['https://www.instagram.com/aaryan._.desai/']
+        docs: ['https://www.instagram.com/aaryan._.desai/']
     },
     {
         id: 3,
@@ -388,7 +386,7 @@ export const bios = [
         name: 'Brian Deniz',
         year: 2026,
         job: 'Machining',
-        socials: ['https://www.instagram.com/briandenizz/']
+        docs: ['https://www.instagram.com/briandenizz/']
     },
     {
         id: 4,
@@ -396,7 +394,7 @@ export const bios = [
         name: 'Landon Schaffer',
         year: 2026,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 5,
@@ -404,7 +402,7 @@ export const bios = [
         name: 'Rashad Bonsu',
         year: 2025,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 6,
@@ -412,7 +410,7 @@ export const bios = [
         name: 'Jeremy George',
         year: 2025,
         job: 'Build/Design',
-        socials: ['https://instagram.com/jeremyg2007/']
+        docs: ['https://instagram.com/jeremyg2007/']
     },
     {
         id: 7,
@@ -420,7 +418,7 @@ export const bios = [
         name: 'Jacob Roohr',
         year: 2025,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 8,
@@ -428,7 +426,7 @@ export const bios = [
         name: 'Justin Scheuerman',
         year: 2025,
         job: 'Build/Design',
-        socials: ['https://instagram.com/justin.m.scheuerman/']
+        docs: ['https://instagram.com/justin.m.scheuerman/']
     },
     {
         id: 9,
@@ -436,7 +434,7 @@ export const bios = [
         name: 'Jack Haddock',
         year: 2025,
         job: 'Build/Design',
-        socials: ['https://instagram.com/jackh0116/']
+        docs: ['https://instagram.com/jackh0116/']
     },
     {
         id: 10,
@@ -444,7 +442,7 @@ export const bios = [
         name: 'Remy Fortsch',
         year: 2025,
         job: 'Programming',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
         
     },
     {
@@ -453,7 +451,7 @@ export const bios = [
         name: 'Evangeline Huey',
         year: 2025,
         job: 'Programming',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 12,
@@ -461,7 +459,7 @@ export const bios = [
         name: 'Tucker Thomas',
         year: 2025,
         job: 'Electrical',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 13,
@@ -469,7 +467,7 @@ export const bios = [
         name: 'Luke Greenbaum',
         year: 2025,
         job: 'Machining',
-        socials: ['https://instagram.com//luke_greenbaum/']
+        docs: ['https://instagram.com//luke_greenbaum/']
     },
     {
         id: 14,
@@ -477,7 +475,7 @@ export const bios = [
         name: 'Vishek Desai',
         year: 2025,
         job: 'Machining',
-        socials: ['https://instagram.com/vishekdesai/']
+        docs: ['https://instagram.com/vishekdesai/']
     },
     {
         id: 15,
@@ -485,7 +483,7 @@ export const bios = [
         name: 'Thomas Maltese',
         year: 2025,
         job: 'Machining',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 16,
@@ -493,7 +491,7 @@ export const bios = [
         name: 'Gabby Menar-Nohilly',
         year: 2025,
         job: 'Business',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 17,
@@ -501,7 +499,7 @@ export const bios = [
         name: 'Aydan Landau',
         year: 2025,
         job: 'Statistics',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 18,
@@ -509,7 +507,7 @@ export const bios = [
         name: 'Abhinav Murthy',
         year: 2024,
         job: 'Build/Design',
-        socials: ['https://instagram.com/abhinav__murthy/']
+        docs: ['https://instagram.com/abhinav__murthy/']
     },
     {
         id: 19,
@@ -517,7 +515,7 @@ export const bios = [
         name: 'Radhika Manvar',
         year: 2024,
         job: 'Build/Design',
-        socials: ['https://instagram.com/radhikamanvar/']
+        docs: ['https://instagram.com/radhikamanvar/']
     },
     {
         id: 20,
@@ -525,7 +523,7 @@ export const bios = [
         name: 'Tia Bajaj',
         year: 2024,
         job: 'Build/Design',
-        socials: ['https://instagram.com/tiaabajaj/']
+        docs: ['https://instagram.com/tiaabajaj/']
     },
     {
         id: 21,
@@ -533,7 +531,7 @@ export const bios = [
         name: 'Ryan Horn',
         year: 2024,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 22,
@@ -541,7 +539,7 @@ export const bios = [
         name: 'Tyler Diaz',
         year: 2024,
         job: 'Build/Design',
-        socials: ['https://instagram.com/tyler_diaz27/']
+        docs: ['https://instagram.com/tyler_diaz27/']
     },
     {
         id: 23,
@@ -549,7 +547,7 @@ export const bios = [
         name: 'Louis Lichter',
         year: 2024,
         job: 'Build/Design',
-        socials: ['https://instagram.com/louislichter_/']
+        docs: ['https://instagram.com/louislichter_/']
     },
     {
         id: 24,
@@ -557,7 +555,7 @@ export const bios = [
         name: 'Arya Chaudry',
         year: 2024,
         job: 'Programming',
-        socials: ['https://instagram.com/aryachaudry/']
+        docs: ['https://instagram.com/aryachaudry/']
     },
     {
         id: 25,
@@ -565,7 +563,7 @@ export const bios = [
         name: 'Chris Egan',
         year: 2024,
         job: 'Programming',
-        socials: ['https://instagram.com/chris_egan_1/']
+        docs: ['https://instagram.com/chris_egan_1/']
     },
     {
         id: 26,
@@ -573,7 +571,7 @@ export const bios = [
         name: 'Gavin Normand',
         year: 2024,
         job: 'Programming',
-        socials: ['https://instagram.com/gavin_normand/']
+        docs: ['https://instagram.com/gavin_normand/']
     },
     {
         id: 27,
@@ -581,7 +579,7 @@ export const bios = [
         name: 'Michael Sacca',
         year: 2024,
         job: 'Electrical',
-        socials: ['https://instagram.com/mike._.sacca/']
+        docs: ['https://instagram.com/mike._.sacca/']
     },
     {
         id: 28,
@@ -589,7 +587,7 @@ export const bios = [
         name: 'Reilly Lichtman',
         year: 2024,
         job: 'Electrical',
-        socials: ['https://instagram.com/reilly_lichtman/']
+        docs: ['https://instagram.com/reilly_lichtman/']
     },
     {
         id: 29,
@@ -597,7 +595,7 @@ export const bios = [
         name: 'Liam Granaghan',
         year: 2024,
         job: 'Liam Granaghan',
-        socials: ['https://instagram.com/granaghanliam/']
+        docs: ['https://instagram.com/granaghanliam/']
     },
     {
         id: 30,
@@ -605,7 +603,7 @@ export const bios = [
         name: 'AJ Josielewski',
         year: 2024,
         job: 'Statistics',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 31,
@@ -613,7 +611,7 @@ export const bios = [
         name: 'Nicholas Marques',
         year: 2023,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 30,
@@ -621,7 +619,7 @@ export const bios = [
         name: 'Evan Kaba',
         year: 2023,
         job: 'Build/Design',
-        socials: ['https://instagram.com/evan_kaba/']
+        docs: ['https://instagram.com/evan_kaba/']
     },
     {
         id: 32,
@@ -629,7 +627,7 @@ export const bios = [
         name: 'Andrew Sain',
         year: 2023,
         job: 'Statistics',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 33,
@@ -637,7 +635,7 @@ export const bios = [
         name: 'Sydney Miller',
         year: 2023,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 34,
@@ -645,7 +643,7 @@ export const bios = [
         name: 'Julia Valentino',
         year: 2023,
         job: 'Build/Design',
-        socials: ['https://instagram.com/julia.valentino_/']
+        docs: ['https://instagram.com/julia.valentino_/']
     },
     {
         id: 35,
@@ -653,7 +651,7 @@ export const bios = [
         name: 'Olivia Pusczko',
         year: 2023,
         job: 'Build/Design',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 36,
@@ -661,7 +659,7 @@ export const bios = [
         name: 'Gavin Elwell',
         year: 2023,
         job: 'Build/Design',
-        socials: ['https://instagram.com/elwell.gavin/']
+        docs: ['https://instagram.com/elwell.gavin/']
     },
     {
         id: 37,
@@ -669,7 +667,7 @@ export const bios = [
         name: 'Drew Springer Heller',
         year: 2023,
         job: 'Programming',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 38,
@@ -677,7 +675,7 @@ export const bios = [
         name: 'Joseph Forte',
         year: 2023,
         job: 'Programming',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 39,
@@ -685,7 +683,7 @@ export const bios = [
         name: 'Vanisha Nagali',
         year: 2023,
         job: 'Machining',
-        socials: ['https://instagram.com/vanishanagali/']
+        docs: ['https://instagram.com/vanishanagali/']
     },
     {
         id: 40,
@@ -693,7 +691,7 @@ export const bios = [
         name: 'Jack Conroy',
         year: 2023,
         job: 'Machining',
-        socials: ['https://instagram.com/jconroy32/']
+        docs: ['https://instagram.com/jconroy32/']
     },
     {
         id: 41,
@@ -701,7 +699,7 @@ export const bios = [
         name: 'Arjun Singh',
         year: 2023,
         job: 'Machining',
-        socials: ['https://instagram.com/singh_arjun1226/']
+        docs: ['https://instagram.com/singh_arjun1226/']
     },
     {
         id: 42,
@@ -709,7 +707,7 @@ export const bios = [
         name: 'Cal Christie',
         year: 2023,
         job: 'Machining',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 43,
@@ -717,7 +715,7 @@ export const bios = [
         name: 'Gabriella Biello',
         year: 2023,
         job: 'Business',
-        socials: ['https://instagram.com/gabriella_biello_/']
+        docs: ['https://instagram.com/gabriella_biello_/']
     },
     {
         id: 44,
@@ -725,7 +723,7 @@ export const bios = [
         name: 'Amelia Tricker',
         year: 2023,
         job: 'Business',
-        socials: ['https://instagram.com/ameliarosetricker/']
+        docs: ['https://instagram.com/ameliarosetricker/']
     },
     {
         id: 45,
@@ -733,7 +731,7 @@ export const bios = [
         name: 'Marissa May',
         year: 2023,
         job: 'Business',
-        socials: ['https://instagram.com/']
+        docs: ['https://instagram.com/']
     },
     {
         id: 46,
@@ -741,7 +739,7 @@ export const bios = [
         name: 'Anthony Lotruglio',
         year: 2023,
         job: 'Business',
-        socials: ['https://instagram.com/anthony.lotruglio/']
+        docs: ['https://instagram.com/anthony.lotruglio/']
     },
     {
         id: 47,
@@ -749,6 +747,6 @@ export const bios = [
         name: 'Julia Husak',
         year: 2023,
         job: 'Business',
-        socials: ['https://instagram.com/husak.julia0163/']
+        docs: ['https://instagram.com/husak.julia0163/']
     }
 ]

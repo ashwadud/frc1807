@@ -3,7 +3,6 @@ import HeaderImage from '../../images/teampicture.jpg'
 import {robots} from '../../data'
 import Robot from '../../components/Robot'
 import {SlDocs} from 'react-icons/sl'
-import {AiFillGithub} from 'react-icons/ai'
 import './robots.css'
 
 const Robots = () => {

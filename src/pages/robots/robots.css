@@ -38,7 +38,8 @@
 }
 
 .robots_docs a {
-    font-size: 0.7rem;
+    font-size: 1.5rem;
+    width: 3.5rem;
     background: var(--color-darkgrey);
     padding: 0.8rem;
     border-radius: 0.7rem;
