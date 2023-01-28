@@ -33,6 +33,24 @@ export const links = [
     },
 ]
 
+export const bblinks = [
+    {
+        name: "Home",
+        path: "/"
+    },
+
+    {
+        name: "About",
+        path: "/blackbird/about"
+    },
+
+    {
+        name: "Cad",
+        path: "/blackbird/cad"
+    },
+
+]
+
 export const pagesdirect = [
     {
         id: 1,
@@ -80,7 +98,7 @@ export const faqs = [
     },
 ]
 
-export const captains = [
+export const quotes = [
     {
         id: 1,
         name: "Robert Tackett",
@@ -125,7 +143,7 @@ export const captains = [
     },
     {
         id: 7,
-        name: "Micheal Sacca",
+        name: "Michael Sacca",
         quote: "Keep moving forward!",
         job: "Electrical Captain",
         avatar: require("./images/logo.png"),
@@ -137,87 +155,83 @@ export const captains = [
         job: "Machining Captain",
         avatar: require("./images/logo.png")
     },
-
-]
-
-export const leads = [
     {
-        id: 1,
+        id: 9,
         name: "Nicholas Marques",
         quote: "Its a great learning enviroment to work in, you learn new stuff everyday and everyone is so supportive to each other.",
         job: "Build Lead",
         avatar: require("./images/logo.png")
-    },
+        },
     {
-        id: 2,
+        id: 10,
         name: "Julia Valentino",
         quote: "Learning and growing with people that have essentially become my second family and exploring the world of mechanical engineering with 1807 has been amazing",
         job: "Build Lead",
         avatar: require("./images/logo.png")
     },
-    {
-        id: 3,
-        name: "Olivia Pusczko",
-        quote: "I rarely build, I'm always taking care of children.",
-        job: "Build Lead",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 4,
-        name: "Abhinav Murthy",
-        quote: ".",
-        job: "Build Lead",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 5,
-        name: "Andrew Sain",
-        quote: "It's a lot of work but its a lot of fun.",
-        job: "Design Lead A",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 6,
-        name: "Gavin Elwell",
-        quote: "Postponed.",
-        job: "Design Lead A",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 7,
-        name: "Radhika Manvar",
-        quote: "Idk",
-        job: "Design Lead A",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 8,
-        name: "Tia Bajaj",
-        quote: "Idk",
-        job: "Design Lead B",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 9,
-        name: "Ryan Horn",
-        quote: "Idk",
-        job: "Design Lead B",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 10,
-        name: "Jacob Roohr",
-        quote: "Everything works in the CAD.",
-        job: "Design Lead B",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 11,
-        name: "Drew Springer Heller",
-        quote: "I'll get back to you with that",
-        job: "Programming Lead",
-        avatar: require("./images/logo.png")
-    }
+        {
+            id: 11,
+            name: "Olivia Pusczko",
+            quote: "I rarely build, I'm always taking care of children.",
+            job: "Build Lead",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 12,
+            name: "Abhinav Murthy",
+            quote: ".",
+            job: "Build Lead",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 13,
+            name: "Andrew Sain",
+            quote: "It's a lot of work but its a lot of fun.",
+            job: "Design Lead A",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 14,
+            name: "Gavin Elwell",
+            quote: "Postponed.",
+            job: "Design Lead A",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 15,
+            name: "Radhika Manvar",
+            quote: "Idk",
+            job: "Design Lead A",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 16,
+            name: "Tia Bajaj",
+            quote: "Idk",
+            job: "Design Lead B",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 17,
+            name: "Ryan Horn",
+            quote: "Idk",
+            job: "Design Lead B",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 18,
+            name: "Jacob Roohr",
+            quote: "Everything works in the CAD.",
+            job: "Design Lead B",
+            avatar: require("./images/logo.png")
+        },
+        {
+            id: 19,
+            name: "Drew Springer Heller",
+            quote: "I'll get back to you with that",
+            job: "Programming Lead",
+            avatar: require("./images/logo.png")
+        }
 ]
 
 const cover1 = require('./images/main__header.jpeg')
@@ -427,7 +441,7 @@ export const robots = [
         image: Robot2018,
         game: 'FIRST Power Up',
         year: '2017-18',
-        docs: ['https://www.instagram.com/ash.wadud/']
+        docs: ['https://github.com/AllentownRobotics/2018-1807-RobotCode']
     },
     {
         id: 5,
@@ -448,7 +462,7 @@ export const robots = [
         image: Robot2021,
         game: 'Rapid React',
         year: '2021-22',
-        docs: ['https://www.instagram.com/ash.wadud/']
+        docs: ['https://github.com/AllentownRobotics/2022-1807-RobotCode']
     },
 ]
 
@@ -461,7 +475,7 @@ export const bios = [
         name: 'Ash Wadud',
         year: '2026',
         job: 'Programming/Web Design',
-        docs: '/pages/bios/team/class-2026/ash-wadud'
+        docs: ['https://www.instagram.com/ash.wadud/']
     },
     {
         id: 2,

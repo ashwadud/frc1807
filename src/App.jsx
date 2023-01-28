@@ -26,8 +26,8 @@ const App = () => {
         <Route path='sponsors' element={<Sponsors/>}/>
         <Route path='bios' element={<Bios/>}/>
         <Route path='blogs' element={<Blogs/>}/>
+        <Route path='blackbird' element={<Blackbird/>}/>
         <Route path='/blog/:id' component={Blog} />
-        <Route path='/blackbird' component={<Blackbird/>} />
         <Route path='*' element={<NotFound/>}/>
         </Routes>
         <Footer/>

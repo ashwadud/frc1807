@@ -18,7 +18,7 @@ const Bios = () => {
           bios.map(({id, image, name, year, job, docs}) => {
           return <Member key={id} image={image} name={name} year={year} job={job} docs={
             [
-              {icon: <SlDocs/>, link: docs[0]},
+              {icon: <SlDocs/>, link: docs},
             ]
           } />
           })

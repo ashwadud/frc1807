@@ -1,8 +1,7 @@
 import MainHeader from '../../components/MainHeader'
 import PagesDirect from '../../components/PagesDirect'
 import FAQs from '../../components/FAQs'
-import Captains from '../../components/Captains'
-import Leads from '../../components/Leads'
+import Quotes from '../../components/Quotes'
 
 import './home.css'
 
@@ -12,8 +11,7 @@ const Home = () => {
       <MainHeader/>
       <PagesDirect/>
       <FAQs/>
-      <Captains/>
-      <Leads/>
+      <Quotes/>
     </>  
   )
 }
