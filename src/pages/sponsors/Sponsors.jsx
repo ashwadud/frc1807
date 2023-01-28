@@ -21,7 +21,9 @@ const Sponsors = () => {
               <h4>Features</h4>
               {
                 features.map(({feature, available}, index) => {
-                  return <p key={index} className={!available ? `disabled` : ''}>{feature}</p>
+                  return <p key={index} className={!available ? 'disabled' : ''}>
+                    {feature}
+                  </p>
                 })
               }
             </Card>

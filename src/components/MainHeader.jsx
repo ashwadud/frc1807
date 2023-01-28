@@ -19,7 +19,7 @@ const MainHeader = () => {
           Empowering students to apply engineering, leadership, and design skills in the FIRST Robotics Competition
           </p>
           <Link to="/about" className='btn lg'>1807</Link>
-          <Link to="/calendar" className='btn lg'>1812</Link>
+          <Link to="/blackbird" className='btn lg'>1812</Link>
         </div>
       </div>
     </header>

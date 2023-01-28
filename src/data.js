@@ -17,8 +17,8 @@ export const links = [
     },
 
     {
-        name: "Calendar",
-        path: "/calendar"
+        name: "Resources",
+        path: "/resources"
     },
 
     {
@@ -44,9 +44,9 @@ export const pagesdirect = [
     {
         id: 2,
         icon: <FaRobot/>,
-        title: "Sponsors",
-        info: "Learn more about our sponsors and how you can be involved.",
-        path: "/sponsors"
+        title: "Blogs",
+        info: "Keep up with our team news throughout the season",
+        path: "/blogs"
     },
     {
         id: 3,
@@ -220,12 +220,103 @@ export const leads = [
     }
 ]
 
+const cover1 = require('./images/main__header.jpeg')
+const avatar = require('./images/logo.png')
+
+export const blogList = [
+    {
+      id: 1,
+      title: 'I want to off myself',
+      category: 'development',
+      subCategory: ['frontend', 'ui/ux', 'design'],
+      description:
+        "nightmare nightmare nightmare nightmare nightmare nightmare nightmare ",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+    {
+      id: 2,
+      title: 'I still want to off myself',
+      category: 'travel',
+      subCategory: ['vacation', 'holidays', 'sight seeing'],
+      description:
+        "nightmare nightmare nightmare nightmare nightmare nightmare nightmare nightmare nightmare ",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+    {
+      id: 3,
+      title: 'Online Shopping – An Alternative to Shopping in the Mall',
+      category: 'shopping',
+      subCategory: ['e-commerce store', 'clothing', 'shopping store'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+    {
+      id: 4,
+      title: 'ADVENTURE IN YOU',
+      category: 'adventure',
+      subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+    {
+      id: 5,
+      title: 'Loaded BBQ Baked Potatoes',
+      category: 'cooking',
+      subCategory: ['bbq', 'food', 'lifestyle'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+    {
+      id: 6,
+      title: 'Beyond the Beach',
+      category: 'travel',
+      subCategory: ['beaches', 'sea', 'holidays'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+    {
+      id: 7,
+      title: 'Art & Perception',
+      category: 'art',
+      subCategory: ['skill', 'design', 'passion'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'John Doe',
+      authorAvatar: avatar,
+      createdAt: 'June 03, 2021',
+      cover: cover1,
+    },
+  ];
+  
+
 export const sponsors = [
     {
         id: 1,
         name: 'Aluminum Sponsor',
         desc: 'This package is perfect for beginners who need constant help',
-        price: '100 to 499',
+        price: 100,
         features: [
             {feature: 'Invitation to our Sponsor Night', available: true},
             {feature: 'Thank-you letter and team picture', available: true}
@@ -235,7 +326,7 @@ export const sponsors = [
         id: 2,
         name: 'Bronze Sponsor',
         desc: 'This is the perfect package for beginners who know what their doing',
-        price: '500 to 999',
+        price: 500,
         features: [
             {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
             {feature: 'Invitation to our Sponsor Night', available: true},
@@ -247,7 +338,7 @@ export const sponsors = [
         id: 3,
         name: 'Silver Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: '1000 to 1999',
+        price: 1000,
         features: [
             {feature: 'Your name displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
             {feature: 'Invitation to our Sponsor Night', available: true},
@@ -259,7 +350,7 @@ export const sponsors = [
         id: 4,
         name: 'Gold Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: '2000 to 4999',
+        price: 2000,
         features: [
             {feature: 'Your logo displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
             {feature: 'Your logo on team shirts worn at competitions', available: true},
@@ -273,7 +364,7 @@ export const sponsors = [
         id: 5,
         name: 'Diamond Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: '5000 to 9999',
+        price: 5000,
         features: [
             {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
             {feature: 'A medium-sized print of your logo on team shirts worn at competitions', available: true},
@@ -287,7 +378,7 @@ export const sponsors = [
         id: 6,
         name: 'Platinum Sponsor',
         desc: 'This package is perfect for busy people who need home service',
-        price: '10000',
+        price: 10000,
         features: [
             {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
             {feature: 'A large print of your logo on team shirts worn at competitions', available: true},
@@ -355,7 +446,7 @@ export const robots = [
     {
         id: 7,
         image: Robot2021,
-        game: 'Infinite Recharge',
+        game: 'Rapid React',
         year: '2021-22',
         docs: ['https://www.instagram.com/ash.wadud/']
     },
@@ -377,7 +468,7 @@ export const bios = [
         image: MemberImage,
         name: 'Aaryan Desai',
         year: 2026,
-        job: 'Programming/Web Design',
+        job: 'Programming/Build',
         docs: ['https://www.instagram.com/aaryan._.desai/']
     },
     {
@@ -393,15 +484,7 @@ export const bios = [
         image: MemberImage,
         name: 'Landon Schaffer',
         year: 2026,
-        job: 'Build/Design',
-        docs: ['https://instagram.com/']
-    },
-    {
-        id: 5,
-        image: MemberImage,
-        name: 'Rashad Bonsu',
-        year: 2025,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/']
     },
     {
@@ -409,7 +492,7 @@ export const bios = [
         image: MemberImage,
         name: 'Jeremy George',
         year: 2025,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/jeremyg2007/']
     },
     {
@@ -417,7 +500,7 @@ export const bios = [
         image: MemberImage,
         name: 'Jacob Roohr',
         year: 2025,
-        job: 'Build/Design',
+        job: 'Build/Design/Electrical',
         docs: ['https://instagram.com/']
     },
     {
@@ -425,7 +508,7 @@ export const bios = [
         image: MemberImage,
         name: 'Justin Scheuerman',
         year: 2025,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/justin.m.scheuerman/']
     },
     {
@@ -433,7 +516,7 @@ export const bios = [
         image: MemberImage,
         name: 'Jack Haddock',
         year: 2025,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/jackh0116/']
     },
     {
@@ -482,7 +565,7 @@ export const bios = [
         image: MemberImage,
         name: 'Thomas Maltese',
         year: 2025,
-        job: 'Machining',
+        job: 'Build/Electrical/Machining',
         docs: ['https://instagram.com/']
     },
     {
@@ -498,7 +581,7 @@ export const bios = [
         image: MemberImage,
         name: 'Aydan Landau',
         year: 2025,
-        job: 'Statistics',
+        job: 'Strategy',
         docs: ['https://instagram.com/']
     },
     {
@@ -506,7 +589,7 @@ export const bios = [
         image: MemberImage,
         name: 'Abhinav Murthy',
         year: 2024,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/abhinav__murthy/']
     },
     {
@@ -514,7 +597,7 @@ export const bios = [
         image: MemberImage,
         name: 'Radhika Manvar',
         year: 2024,
-        job: 'Build/Design',
+        job: 'Strategy/Design',
         docs: ['https://instagram.com/radhikamanvar/']
     },
     {
@@ -522,7 +605,7 @@ export const bios = [
         image: MemberImage,
         name: 'Tia Bajaj',
         year: 2024,
-        job: 'Build/Design',
+        job: 'Design',
         docs: ['https://instagram.com/tiaabajaj/']
     },
     {
@@ -538,7 +621,7 @@ export const bios = [
         image: MemberImage,
         name: 'Tyler Diaz',
         year: 2024,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/tyler_diaz27/']
     },
     {
@@ -546,7 +629,7 @@ export const bios = [
         image: MemberImage,
         name: 'Louis Lichter',
         year: 2024,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/louislichter_/']
     },
     {
@@ -594,23 +677,15 @@ export const bios = [
         image: MemberImage,
         name: 'Liam Granaghan',
         year: 2024,
-        job: 'Liam Granaghan',
+        job: 'Business',
         docs: ['https://instagram.com/granaghanliam/']
-    },
-    {
-        id: 30,
-        image: MemberImage,
-        name: 'AJ Josielewski',
-        year: 2024,
-        job: 'Statistics',
-        docs: ['https://instagram.com/']
     },
     {
         id: 31,
         image: MemberImage,
         name: 'Nicholas Marques',
         year: 2023,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/']
     },
     {
@@ -626,7 +701,7 @@ export const bios = [
         image: MemberImage,
         name: 'Andrew Sain',
         year: 2023,
-        job: 'Statistics',
+        job: 'Design',
         docs: ['https://instagram.com/']
     },
     {
@@ -634,7 +709,7 @@ export const bios = [
         image: MemberImage,
         name: 'Sydney Miller',
         year: 2023,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/']
     },
     {
@@ -642,7 +717,7 @@ export const bios = [
         image: MemberImage,
         name: 'Julia Valentino',
         year: 2023,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/julia.valentino_/']
     },
     {
@@ -650,7 +725,7 @@ export const bios = [
         image: MemberImage,
         name: 'Olivia Pusczko',
         year: 2023,
-        job: 'Build/Design',
+        job: 'Build',
         docs: ['https://instagram.com/']
     },
     {
@@ -658,7 +733,7 @@ export const bios = [
         image: MemberImage,
         name: 'Gavin Elwell',
         year: 2023,
-        job: 'Build/Design',
+        job: 'Design',
         docs: ['https://instagram.com/elwell.gavin/']
     },
     {
@@ -698,7 +773,7 @@ export const bios = [
         image: MemberImage,
         name: 'Arjun Singh',
         year: 2023,
-        job: 'Machining',
+        job: 'Machining/Strategy',
         docs: ['https://instagram.com/singh_arjun1226/']
     },
     {
@@ -744,9 +819,9 @@ export const bios = [
     {
         id: 47,
         image: MemberImage,
-        name: 'Julia Husak',
+        name: 'Nick Schaffer',
         year: 2023,
-        job: 'Business',
-        docs: ['https://instagram.com/husak.julia0163/']
+        job: 'Programming',
+        docs: ['https://instagram.com/']
     }
 ]

@@ -9,7 +9,7 @@ const Robots = () => {
   return (
     <>
     <Header title="Robots" image={HeaderImage}>
-      View the list of all of our team members and their contact information.
+      View the our robots and their documentation over the years!
     </Header>
     <section className="robots">
       <div className="container robots__container">
