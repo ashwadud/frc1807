@@ -12,25 +12,28 @@ import Blackbird from './pages/blackbird/Blackbird'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Waduda from './pages/bios/waduda/Waduda'
 
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route index element={<Home/>}/>
-        <Route path='about' element={<About/>}/>
-        <Route path='robots' element={<Robots/>}/>
-        <Route path='resources' element={<Resources/>}/>
-        <Route path='sponsors' element={<Sponsors/>}/>
-        <Route path='bios' element={<Bios/>}/>
-        <Route path='blogs' element={<Blogs/>}/>
-        <Route path='blackbird' element={<Blackbird/>}/>
+        <Route index element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='robots' element={<Robots />} />
+        <Route path='resources' element={<Resources />} />
+        <Route path='sponsors' element={<Sponsors />} />
+        <Route path='bios' element={<Bios />} />
+        <Route path='blogs' element={<Blogs />} />
+        <Route path='blackbird' element={<Blackbird />} />
         <Route path='/blog/:id' component={Blog} />
-        <Route path='*' element={<NotFound/>}/>
-        </Routes>
-        <Footer/>
+        <Route path='*' element={<NotFound />} />
+        <Route path='waduda' element={<Waduda />} />
+
+      </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

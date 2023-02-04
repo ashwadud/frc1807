@@ -31,6 +31,7 @@ export const links = [
         path: "/bios"
 
     },
+
 ]
 
 export const bblinks = [
@@ -475,7 +476,7 @@ export const bios = [
         name: 'Ash Wadud',
         year: '2026',
         job: 'Programming/Web Design',
-        docs: ['https://www.instagram.com/ash.wadud/']
+        docs: ['/waduda']
     },
     {
         id: 2,
