@@ -46,6 +46,10 @@
 
 /* General Styles */
 
+html {
+    background: var(--color-black);
+}
+
 body {
     font-family: 'Montserrat', sans-serif, monospace;
     color: var(--color-black);
@@ -111,6 +115,11 @@ img {
 .btn.lg:hover {
     background: var(--color-grey);
     color: var(--color-black);
+}
+
+.btn.lg#bb:hover {
+    background: var(--color-darkgrey);
+    color: var(--color-grey);
 }
 
 .btn.sm {

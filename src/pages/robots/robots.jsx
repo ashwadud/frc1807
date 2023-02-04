@@ -2,6 +2,7 @@ import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import {robots} from '../../data'
 import Robot from '../../components/Robot'
+import Footer from '../../components/Footer'
 import {SlDocs} from 'react-icons/sl'
 import './robots.css'
 
@@ -24,6 +25,7 @@ const Robots = () => {
         }
       </div>
     </section>
+    <Footer/>
     </>
   )
 }

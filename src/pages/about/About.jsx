@@ -2,6 +2,8 @@ import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import StoryImage from '../../images/main__header.png'
 import VisionImage from '../../images/logo.png'
+import Footer from '../../components/Footer'
+
 import './about.css'
 
 const About = () => {
@@ -19,7 +21,7 @@ const About = () => {
 </p>
           </div>
           <div className="about__section-image">
-            <img src={VisionImage} alt="Summary Image" />
+            <img src={VisionImage} alt="Summary" />
           </div>
         </div>
       </section>
@@ -27,7 +29,7 @@ const About = () => {
     <section className="about__story">
       <div className="container about__story-container">
         <div className="about__section-image">
-          <img src={StoryImage} alt="Story Image" />
+          <img src={StoryImage} alt="Story" />
         </div>
         <div className='about__section-content'>
           <h1>Our History</h1>
@@ -44,12 +46,12 @@ const About = () => {
           <p>To provide an outlet for passionate students who want to explore their interests in STEM, business, and other aspects of FIRST Robotics. We aspire to engage dedicated students who are willing to work hard to achieve their goals. With our mentors and sponsors, we seek to provide members with the guidance, confidence, and resources necessary for success in FIRST and their careers.</p>
         </div>
         <div className="about__section-image">
-          <img src={VisionImage} alt="Vision Image" />
+          <img src={VisionImage} alt="Vision" />
         </div>
       </div>
     </section>
 
-    
+    <Footer/>
     </>
   )
 }

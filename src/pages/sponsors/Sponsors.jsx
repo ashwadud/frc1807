@@ -2,6 +2,7 @@ import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import Card from '../../UI/Card'
 import { sponsors } from '../../data'
+import Footer from '../../components/Footer'
 import './sponsors.css'
 
 const Sponsors = () => {
@@ -31,6 +32,7 @@ const Sponsors = () => {
         }
       </div>
     </section>
+    <Footer/>
     </>
   )
 }

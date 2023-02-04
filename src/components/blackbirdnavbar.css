@@ -30,20 +30,25 @@ nav#bb {
     display: block;
 }
 
-.nav__links {
+.nav__links#bb {
     display: flex;
     gap: 3.5rem;
     align-items: center;
 }
 
-.nav__links li a {
+.nav__links#bb li a {
     transition: var(--transition);
     color: var(--color-grey);
     font-weight: 600;
 }
 
-.nav__links li a:hover {
-    color: var(--color-fadedred);
+.nav__links#bb li a svg {
+    transition: var(--transition);
+    font-weight: 600;
+}
+
+.nav__links#bb li a:hover, .nav__links#bb li a svg:hover {
+    color: var(--color-darkgrey);
 }
 
 .active-nav {

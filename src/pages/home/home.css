@@ -92,30 +92,6 @@
     }
 }
 
-/* .main__header-right {
-    display: grid;
-    place-items: center;
-    position: relative;
-}
-
-.main__header-circle {
-    width: 40rem;
-    height: 40rem;
-    background: linear-gradient(75deg, var(--color-primary), transparent);
-    border-radius: 50%;
-    position: absolute;
-    transition: var(--transition);
-}
-
-.main__header-image {
-    position: relative;
-    width: 25rem;
-}
-
-.main__header-right:hover .main__header-circle {
-    filter: blur(15px);
-} */
-
 /* Pages Redirect */
 
 .pagesdirect {

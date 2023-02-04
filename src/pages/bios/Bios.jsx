@@ -3,6 +3,7 @@ import HeaderImage from '../../images/teampicture.jpg'
 import {bios} from '../../data'
 import Member from '../../components/Member'
 import {SlDocs} from 'react-icons/sl'
+import Footer from '../../components/Footer'
 
 import './bios.css'
 
@@ -25,6 +26,7 @@ const Bios = () => {
         }
       </div>
     </section>
+    <Footer/>
     </>
   )
 }

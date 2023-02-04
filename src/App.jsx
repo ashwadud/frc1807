@@ -11,8 +11,8 @@ import Blog from './pages/Blog'
 import Blackbird from './pages/blackbird/Blackbird'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 
+import WadudA from './pages/bios/team/waduda'
 
 const App = () => {
   return (
@@ -25,12 +25,12 @@ const App = () => {
         <Route path='resources' element={<Resources/>}/>
         <Route path='sponsors' element={<Sponsors/>}/>
         <Route path='bios' element={<Bios/>}/>
-        <Route path='blogs' element={<Blogs/>}/>
         <Route path='blackbird' element={<Blackbird/>}/>
+        <Route path='blogs' element={<Blogs/>}/>
         <Route path='/blog/:id' component={Blog} />
         <Route path='*' element={<NotFound/>}/>
+        <Route path='team/waduda' element={<WadudA/>}/>
         </Routes>
-        <Footer/>
     </BrowserRouter>
   )
 }

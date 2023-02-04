@@ -35,18 +35,8 @@ export const links = [
 
 export const bblinks = [
     {
-        name: "Home",
+        name: "Back to Home",
         path: "/"
-    },
-
-    {
-        name: "About",
-        path: "/blackbird/about"
-    },
-
-    {
-        name: "Cad",
-        path: "/blackbird/cad"
     },
 
 ]
@@ -475,7 +465,7 @@ export const bios = [
         name: 'Ash Wadud',
         year: '2026',
         job: 'Programming/Web Design',
-        docs: ['https://www.instagram.com/ash.wadud/']
+        docs: '/team/waduda'
     },
     {
         id: 2,
