@@ -222,7 +222,7 @@ export const quotes = [
         {
             id: 18,
             name: "Jacob Roohr",
-            quote: "Everything works in the CAD.",
+            quote: "It worked in the CAD.",
             job: "Design Lead B",
             avatar: require("./images/logo.png")
         },
@@ -473,147 +473,147 @@ export const bios = [
     {
         id: 1,
         image: MemberImage,
-        name: 'Ash Wadud',
-        year: '2026',
-        job: 'Programming/Web Design',
-        docs: ['/waduda']
+        name: 'Nick Schaffer',
+        year: 2023,
+        job: 'Programming',
+        docs: ['/schaffern']
     },
     {
         id: 2,
         image: MemberImage,
-        name: 'Aaryan Desai',
-        year: 2026,
-        job: 'Programming/Build',
-        docs: ['https://www.instagram.com/aaryan._.desai/']
+        name: 'Anthony Lotruglio',
+        year: 2023,
+        job: 'Business',
+        docs: ['/lotruglioa']
     },
     {
         id: 3,
         image: MemberImage,
-        name: 'Brian Deniz',
-        year: 2026,
-        job: 'Machining',
-        docs: ['https://www.instagram.com/briandenizz/']
+        name: 'Marissa May',
+        year: 2023,
+        job: 'Business',
+        docs: ['/maym']
     },
     {
         id: 4,
         image: MemberImage,
-        name: 'Landon Schaffer',
-        year: 2026,
-        job: 'Build',
-        docs: ['https://instagram.com/']
+        name: 'Amelia Tricker',
+        year: 2023,
+        job: 'Business',
+        docs: ['/trickera']
     },
     {
         id: 6,
         image: MemberImage,
-        name: 'Jeremy George',
-        year: 2025,
-        job: 'Build',
-        docs: ['https://instagram.com/jeremyg2007/']
+        name: 'Gabriella Biello',
+        year: 2023,
+        job: 'Business',
+        docs: ['/biellog']
     },
     {
         id: 7,
         image: MemberImage,
-        name: 'Jacob Roohr',
-        year: 2025,
-        job: 'Build/Design/Electrical',
-        docs: ['https://instagram.com/']
+        name: 'Cal Christine',
+        year: 2023,
+        job: 'Machining',
+        docs: ['/christinec']
     },
     {
         id: 8,
         image: MemberImage,
-        name: 'Justin Scheuerman',
-        year: 2025,
-        job: 'Build',
-        docs: ['https://instagram.com/justin.m.scheuerman/']
+        name: 'Arjun Singh',
+        year: 2023,
+        job: 'Machining/Strategy/1807 Driver',
+        docs: ['/singha']
     },
     {
         id: 9,
         image: MemberImage,
-        name: 'Jack Haddock',
-        year: 2025,
-        job: 'Build',
-        docs: ['https://instagram.com/jackh0116/']
+        name: 'Jack Conroy',
+        year: 2023,
+        job: 'Machining',
+        docs: ['/conroyj']
     },
     {
         id: 10,
         image: MemberImage,
-        name: 'Remy Fortsch',
-        year: 2025,
-        job: 'Programming',
-        docs: ['https://instagram.com/']
+        name: 'Vanisha Nagali',
+        year: 2023,
+        job: 'Machining',
+        docs: ['/nagaliv']
         
     },
     {
         id: 11,
         image: MemberImage,
-        name: 'Evangeline Huey',
-        year: 2025,
-        job: 'Programming',
-        docs: ['https://instagram.com/']
+        name: 'Joseph Forte',
+        year: 2023,
+        job: 'Programming/1807 Operator',
+        docs: ['/fortej']
     },
     {
         id: 12,
         image: MemberImage,
-        name: 'Tucker Thomas',
-        year: 2025,
-        job: 'Electrical',
-        docs: ['https://instagram.com/']
+        name: 'Drew Springer Heller',
+        year: 2023,
+        job: 'Programming',
+        docs: ['/hellerd']
     },
     {
         id: 13,
         image: MemberImage,
-        name: 'Luke Greenbaum',
-        year: 2025,
-        job: 'Machining',
-        docs: ['https://instagram.com//luke_greenbaum/']
+        name: 'Gavin Elwell',
+        year: 2023,
+        job: 'Design',
+        docs: ['/elwellg']
     },
     {
         id: 14,
         image: MemberImage,
-        name: 'Vishek Desai',
-        year: 2025,
-        job: 'Machining',
-        docs: ['https://instagram.com/vishekdesai/']
+        name: 'Olivia Pusczko',
+        year: 2023,
+        job: 'Build',
+        docs: ['/pusczkoo']
     },
     {
         id: 15,
         image: MemberImage,
-        name: 'Thomas Maltese',
-        year: 2025,
-        job: 'Build/Electrical/Machining',
-        docs: ['https://instagram.com/']
+        name: 'Julia Valentino',
+        year: 2023,
+        job: 'Build/Machining',
+        docs: ['/valentinoj']
     },
     {
         id: 16,
         image: MemberImage,
-        name: 'Gabby Menar-Nohilly',
-        year: 2025,
-        job: 'Business',
-        docs: ['https://instagram.com/']
+        name: 'Sydney Miller',
+        year: 2023,
+        job: 'Build',
+        docs: ['/millers']
     },
     {
         id: 17,
         image: MemberImage,
-        name: 'Aydan Landau',
-        year: 2025,
-        job: 'Strategy',
-        docs: ['https://instagram.com/']
+        name: 'Andrew Sain',
+        year: 2023,
+        job: 'Design/Strategy',
+        docs: ['/saina']
     },
     {
         id: 18,
         image: MemberImage,
-        name: 'Abhinav Murthy',
-        year: 2024,
-        job: 'Build',
-        docs: ['https://instagram.com/abhinav__murthy/']
+        name: 'Evan Kaba',
+        year: 2023,
+        job: 'Build/Design',
+        docs: ['/kabae']
     },
     {
         id: 19,
         image: MemberImage,
-        name: 'Radhika Manvar',
-        year: 2024,
-        job: 'Strategy/Design',
-        docs: ['https://instagram.com/radhikamanvar/']
+        name: 'Nicholas Marques',
+        year: 2023,
+        job: 'Build',
+        docs: ['/marquesn']
     },
     {
         id: 20,
@@ -621,7 +621,7 @@ export const bios = [
         name: 'Tia Bajaj',
         year: 2024,
         job: 'Design',
-        docs: ['https://instagram.com/tiaabajaj/']
+        docs: ['/bajajt']
     },
     {
         id: 21,
@@ -629,7 +629,7 @@ export const bios = [
         name: 'Ryan Horn',
         year: 2024,
         job: 'Build/Design',
-        docs: ['https://instagram.com/']
+        docs: ['/hornr']
     },
     {
         id: 22,
@@ -637,7 +637,7 @@ export const bios = [
         name: 'Tyler Diaz',
         year: 2024,
         job: 'Build',
-        docs: ['https://instagram.com/tyler_diaz27/']
+        docs: ['/diazt']
     },
     {
         id: 23,
@@ -645,15 +645,15 @@ export const bios = [
         name: 'Louis Lichter',
         year: 2024,
         job: 'Build',
-        docs: ['https://instagram.com/louislichter_/']
+        docs: ['/lichterl']
     },
     {
         id: 24,
         image: MemberImage,
         name: 'Arya Chaudry',
         year: 2024,
-        job: 'Programming',
-        docs: ['https://instagram.com/aryachaudry/']
+        job: 'Programming/1812 Operator',
+        docs: ['/chaudrya']
     },
     {
         id: 25,
@@ -661,7 +661,7 @@ export const bios = [
         name: 'Chris Egan',
         year: 2024,
         job: 'Programming',
-        docs: ['https://instagram.com/chris_egan_1/']
+        docs: ['/eganc']
     },
     {
         id: 26,
@@ -669,7 +669,7 @@ export const bios = [
         name: 'Gavin Normand',
         year: 2024,
         job: 'Programming',
-        docs: ['https://instagram.com/gavin_normand/']
+        docs: ['/normandg']
     },
     {
         id: 27,
@@ -677,7 +677,7 @@ export const bios = [
         name: 'Michael Sacca',
         year: 2024,
         job: 'Electrical',
-        docs: ['https://instagram.com/mike._.sacca/']
+        docs: ['/saccam']
     },
     {
         id: 28,
@@ -685,7 +685,7 @@ export const bios = [
         name: 'Reilly Lichtman',
         year: 2024,
         job: 'Electrical',
-        docs: ['https://instagram.com/reilly_lichtman/']
+        docs: ['/lichtmanr']
     },
     {
         id: 29,
@@ -693,150 +693,150 @@ export const bios = [
         name: 'Liam Granaghan',
         year: 2024,
         job: 'Business',
-        docs: ['https://instagram.com/granaghanliam/']
+        docs: ['/granaghanl']
     },
     {
         id: 31,
         image: MemberImage,
-        name: 'Nicholas Marques',
-        year: 2023,
-        job: 'Build',
-        docs: ['https://instagram.com/']
+        name: 'Radhika Manvar',
+        year: 2024,
+        job: 'Design/Strategy',
+        docs: ['/manvarr']
     },
     {
         id: 30,
         image: MemberImage,
-        name: 'Evan Kaba',
-        year: 2023,
-        job: 'Build/Design',
-        docs: ['https://instagram.com/evan_kaba/']
+        name: 'Abhinav Murthy',
+        year: 2024,
+        job: 'Build',
+        docs: ['/murthya']
     },
     {
         id: 32,
         image: MemberImage,
-        name: 'Andrew Sain',
-        year: 2023,
-        job: 'Design',
-        docs: ['https://instagram.com/']
+        name: 'Aydan Landau',
+        year: 2025,
+        job: 'Strategy',
+        docs: ['/landaua']
     },
     {
         id: 33,
         image: MemberImage,
-        name: 'Sydney Miller',
-        year: 2023,
-        job: 'Build',
-        docs: ['https://instagram.com/']
+        name: 'Gabby Menar-Nohilly',
+        year: 2025,
+        job: 'Business',
+        docs: ['/nohillyg']
     },
     {
         id: 34,
         image: MemberImage,
-        name: 'Julia Valentino',
-        year: 2023,
-        job: 'Build',
-        docs: ['https://instagram.com/julia.valentino_/']
+        name: 'Thomas Maltese',
+        year: 2025,
+        job: 'Build/Electrical/Machining',
+        docs: ['/malteset']
     },
     {
         id: 35,
         image: MemberImage,
-        name: 'Olivia Pusczko',
-        year: 2023,
-        job: 'Build',
-        docs: ['https://instagram.com/']
+        name: 'Vishek Desai',
+        year: 2025,
+        job: 'Machining',
+        docs: ['/desaiv']
     },
     {
         id: 36,
         image: MemberImage,
-        name: 'Gavin Elwell',
-        year: 2023,
-        job: 'Design',
-        docs: ['https://instagram.com/elwell.gavin/']
+        name: 'Luke Greenbaum',
+        year: 2025,
+        job: 'Machining',
+        docs: ['/greenbauml']
     },
     {
         id: 37,
         image: MemberImage,
-        name: 'Drew Springer Heller',
-        year: 2023,
-        job: 'Programming',
-        docs: ['https://instagram.com/']
+        name: 'Tucker Thomas',
+        year: 2025,
+        job: 'Electrical/Design',
+        docs: ['/thomast']
     },
     {
         id: 38,
         image: MemberImage,
-        name: 'Joseph Forte',
-        year: 2023,
+        name: 'Evangeline Huey',
+        year: 2025,
         job: 'Programming',
-        docs: ['https://instagram.com/']
+        docs: ['/hueye']
     },
     {
         id: 39,
         image: MemberImage,
-        name: 'Vanisha Nagali',
-        year: 2023,
-        job: 'Machining',
-        docs: ['https://instagram.com/vanishanagali/']
+        name: 'Remy Fortsch',
+        year: 2025,
+        job: 'Programming',
+        docs: ['/fortschr']
     },
     {
         id: 40,
         image: MemberImage,
-        name: 'Jack Conroy',
-        year: 2023,
-        job: 'Machining',
-        docs: ['https://instagram.com/jconroy32/']
+        name: 'Jack Haddock',
+        year: 2025,
+        job: 'Build',
+        docs: ['/haddockj']
     },
     {
         id: 41,
         image: MemberImage,
-        name: 'Arjun Singh',
-        year: 2023,
-        job: 'Machining/Strategy',
-        docs: ['https://instagram.com/singh_arjun1226/']
+        name: 'Justin Scheuerman',
+        year: 2025,
+        job: 'Build',
+        docs: ['/scheuermanj']
     },
     {
         id: 42,
         image: MemberImage,
-        name: 'Cal Christie',
-        year: 2023,
-        job: 'Machining',
-        docs: ['https://instagram.com/']
+        name: 'Jacob Roohr',
+        year: 2025,
+        job: 'Build/Design/Electrical',
+        docs: ['/roohrj']
     },
     {
         id: 43,
         image: MemberImage,
-        name: 'Gabriella Biello',
-        year: 2023,
-        job: 'Business',
-        docs: ['https://instagram.com/gabriella_biello_/']
+        name: 'Jeremy George',
+        year: 2025,
+        job: 'Build',
+        docs: ['/georgej']
     },
     {
         id: 44,
         image: MemberImage,
-        name: 'Amelia Tricker',
-        year: 2023,
-        job: 'Business',
-        docs: ['https://instagram.com/ameliarosetricker/']
+        name: 'Landon Schaffer',
+        year: 2026,
+        job: 'Build',
+        docs: ['/schafferl']
     },
     {
         id: 45,
         image: MemberImage,
-        name: 'Marissa May',
-        year: 2023,
-        job: 'Business',
-        docs: ['https://instagram.com/']
+        name: 'Brian Deniz',
+        year: 2026,
+        job: 'Machining/Build/1812 Driver',
+        docs: ['/denizb']
     },
     {
         id: 46,
         image: MemberImage,
-        name: 'Anthony Lotruglio',
-        year: 2023,
-        job: 'Business',
-        docs: ['https://instagram.com/anthony.lotruglio/']
+        name: 'Aaryan Desai',
+        year: 2026,
+        job: 'Programming/Build',
+        docs: ['/desaia']
     },
     {
         id: 47,
         image: MemberImage,
-        name: 'Nick Schaffer',
-        year: 2023,
-        job: 'Programming',
-        docs: ['https://instagram.com/']
+        name: 'Ash Wadud',
+        year: 2026,
+        job: 'Programming/Web Design',
+        docs: ['/waduda']
     }
 ]
