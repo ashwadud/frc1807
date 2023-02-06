@@ -12,6 +12,7 @@ import Blackbird from './pages/blackbird/Blackbird'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Aboutb from './pages/blackbird/aboutb/Aboutb'
 
 
 // Bios Files // 
@@ -79,6 +80,7 @@ function App() {
         <Route path='blackbird' element={<Blackbird />} />
         <Route path='/blog/:id' component={Blog} />
         <Route path='*' element={<NotFound />} />
+        <Route path='aboutb' element={<Aboutb />} />
 
 
 

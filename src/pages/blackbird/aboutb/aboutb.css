@@ -3,7 +3,7 @@
     overflow: hidden;
     height:60vh;
     transform: skew(15deg);
-    background: var(--color-grey);
+    background: var(--color-black);
     transition: var(--transition);
 }
 

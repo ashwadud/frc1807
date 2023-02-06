@@ -1,15 +1,17 @@
-import Header from '../../components/Header'
-import HeaderImage from '../../images/teampicture.jpg'
-import StoryImage from '../../images/main__header.png'
-import VisionImage from '../../images/logo.png'
-import './about.css'
+import Header from '../../../components/Header'
+import HeaderImage from '../../../images/teampicture.jpg'
+import StoryImage from '../../../images/main__header.png'
+import VisionImage from '../../../images/bblogo.png'
+import Navbar from '../../../components/BlackbirdNavbar'
+import './aboutb.css'
 
-const About = () => {
+const Aboutb = () => {
   return (
     <>
     <Header title="About Us" image={HeaderImage}>
       Scroll down to read about our history and how we built our team from the start.
     </Header>
+    <Navbar></Navbar>
     <section className="about__summary">
         <div className="container about__summary-container">
           <div className='about__section-content'>
@@ -54,4 +56,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Aboutb

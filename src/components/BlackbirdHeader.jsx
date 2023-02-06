@@ -16,7 +16,7 @@ const BlackbirdHeader = () => {
           <p>
           Empowering students to apply engineering, leadership, and design skills in the FIRST Robotics Competition
           </p>
-          <Link to="about" className='btn lg'>About</Link>
+          <Link to="/aboutb" className='btn lg'>About</Link>
           <Link to="/cad" className='btn lg'>CAD</Link>
           <Link to="/code" className='btn lg'>Code</Link>
         </div>
