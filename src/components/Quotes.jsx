@@ -28,7 +28,7 @@ const Quotes = () => {
   return (
     <section className="leads">
       <div className="container leads__container">
-        <SectionHead icon={<ImQuotesLeft/>} title="Quotes" className="leads__head"/>
+        <SectionHead icon={<ImQuotesLeft/>} title="Quotes from The Team" className="leads__head"/>
         <Card className="lead">
           <div className='lead__avatar'>
             <img src={avatar} alt={name} />

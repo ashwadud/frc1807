@@ -7,6 +7,10 @@
     transition: var(--transition);
 }
 
+.about__section-image img {
+    height: 70vh;
+}
+
 .about__section-image:nth-child(2) {
     transform: skew(-15deg);
 }

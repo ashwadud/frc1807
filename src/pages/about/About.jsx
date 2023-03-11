@@ -1,7 +1,9 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
-import StoryImage from '../../images/main__header.png'
-import VisionImage from '../../images/logo.png'
+import StoryImage from '../../images/about/circle1.JPG'
+import VisionImage from '../../images/teampicture.jpg'
+import Footer from '../../components/Footer'
+
 import './about.css'
 
 const About = () => {
@@ -19,7 +21,7 @@ const About = () => {
 </p>
           </div>
           <div className="about__section-image">
-            <img src={VisionImage} alt="Summary Image" />
+            <img src={VisionImage} alt="Summary" />
           </div>
         </div>
       </section>
@@ -27,12 +29,11 @@ const About = () => {
     <section className="about__story">
       <div className="container about__story-container">
         <div className="about__section-image">
-          <img src={StoryImage} alt="Story Image" />
+          <img src={StoryImage} alt="Story" />
         </div>
         <div className='about__section-content'>
           <h1>Our History</h1>
           <p>In 2006, our founders had a goal.  He wanted to start a First Robotics Team in Allentown High School in order to create an activity his son could partake in and enjoy. However, Mr. Nalbone did more than that; he created a community in Allentown High School diverse in skills and hobbies, but unified in STEAM (Science, Technology, Engineering, Arts, Mathematics).</p>
-          <p>In Mr. Nalbone’s book, he discusses the steps neccesary in achieving his goal, as well as the success of FRC Team 1807: Redbird Robotics. Below is a PDF of the book, which provides the history and reasons our robotics team was created.</p>
         </div>
       </div>
     </section>
@@ -44,12 +45,12 @@ const About = () => {
           <p>To provide an outlet for passionate students who want to explore their interests in STEM, business, and other aspects of FIRST Robotics. We aspire to engage dedicated students who are willing to work hard to achieve their goals. With our mentors and sponsors, we seek to provide members with the guidance, confidence, and resources necessary for success in FIRST and their careers.</p>
         </div>
         <div className="about__section-image">
-          <img src={VisionImage} alt="Vision Image" />
+          <img src={VisionImage} alt="Vision" />
         </div>
       </div>
     </section>
 
-    
+    <Footer/>
     </>
   )
 }

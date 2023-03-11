@@ -25,9 +25,9 @@ const BlackbirdFooter = () => {
                 <h4>Resources</h4>
                 <a href="https://www.firstinspires.org/robotics/frc" target="blank">FIRST Robotics Competition</a>
                 <a href="https://ahs.ufrsd.net" target="blank">Allentown High School</a>
-                <Link to="/sponsors">Our Blog</Link>
+                <Link to="/blogs">Our Blog</Link>
             </article>    
-        </div><div className="footer__copyright">
+        </div><div className="footer__copyright" id="bb">
                 <small>FRC 1807 | Allentown High School Allentown, NJ</small>
             </div>
     </footer>

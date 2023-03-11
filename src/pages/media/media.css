@@ -1,0 +1,31 @@
+.media__container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.media__container article {
+    border: 1rem solid transparent;
+    transition: var(--transition);
+}
+
+.media__container article:hover {
+    border-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+    .media__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .media__container article {
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .media__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

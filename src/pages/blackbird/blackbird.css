@@ -4,6 +4,7 @@
     display: grid;
     place-items: center;
     margin-top: 3rem;
+    border-bottom: solid 3px var(--color-white);
     background-size: 100%;
     background-color: var(--color-black);
     background-blend-mode: multiply;
@@ -63,16 +64,16 @@
     position: relative;
     color: var(--color-black);
     -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: var(--color-black);
 }
 
 /* Footer */
 
 footer#bb {
     background: var(--color-black);
-    margin-top: 5rem;
-    padding-top: 5rem;
     font-size: 0.9rem;
     color: var(--color-white);
+    margin-top: 0;
     border: 5px black;
 }
 
@@ -98,39 +99,13 @@ footer#bb {
     font-size: 1rem;
 }
 
-.footer__socials {
-    margin-top: 1.5rem;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-.footer__socials a {
-    background: var(--color-primary);
-    padding: 0.7rem;
-    border: 1px solid transparent;
-    border-radius: 0.6rem;
-    transition: var(--transition);
-}
-
-.footer__socials a svg {
-    color: var(--color-grey)
-}
-
-.footer__socials a:hover {
-    border-color: var(--color-fadedred);
-    background: var(--color-fadedred);
-}
-
-.footer__copyright {
+.footer__copyright#bb {
     color: var(--color-grey);
     text-align: center;
     padding: 1.5rem 0;
-    border-top: 2px solid var(--color-secondary);
+    border-top: 2px solid var(--color-white);
     margin-top: 5rem;
 }
-
-
 
 @media screen and (max-width: 1024px) {
     .blackbird__header {
@@ -140,24 +115,6 @@ footer#bb {
 
     .blackbird__header-container {
         gap: 0;
-    }
-
-    .blackbird__header-circle {
-        width: 30rem;
-        height: 30rem;
-    }
-
-    .blackbird__header-image {
-        width: 20rem;
-        height: 20rem;
-    }
-
-    .programs__wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .faqs__wrapper {
-        grid-template-columns: 1fr;
     }
 
     .footer__container {
@@ -176,29 +133,9 @@ footer#bb {
         height: 100vh;
     }
 
-    .blackbird__header-center-image {
-        display: none;
-    }
-
     .blackbird__header-container {
         grid-template-columns: 1fr;
         margin-left: 1rem;
-    }
-
-    .pages__wrapper {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        margin-top: 3rem;
-    }
-
-    .pages__page {
-        width: 84%;
-        margin: 0 auto;
-    }
-
-    .faqs__wrapper {
-        gap: 1rem;
-        margin-top: 3rem;
     }
 
     footer {

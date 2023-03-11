@@ -7,3 +7,7 @@
     margin-top: 2rem;
     display: inline-block;
 }
+
+.notfound__container h2 {
+    color: var(--color-grey);
+}

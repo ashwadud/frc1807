@@ -4,6 +4,7 @@ import BlogList from '../../components/Blog/BlogList';
 import Header from '../../components/Blog/Header';
 import HeaderImage from '../../images/teampicture.jpg'
 import SearchBar from '../../components/Blog/SearchBar';
+import Footer from '../../components/Footer'
 import { blogList } from '../../data';
 
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
 
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+      <Footer/>
     </div>
   );
 };

@@ -4,7 +4,7 @@
     display: grid;
     place-items: center;
     margin-top: 3rem;
-    background: url(/src/images/teampicture.jpg);
+    background: url(/src/images/teampictureupdated.jpg);
     background-size: 100%;
     background-color: rgb(84, 84, 84);
     background-blend-mode: multiply;
@@ -91,30 +91,6 @@
         top:-100px;
     }
 }
-
-/* .main__header-right {
-    display: grid;
-    place-items: center;
-    position: relative;
-}
-
-.main__header-circle {
-    width: 40rem;
-    height: 40rem;
-    background: linear-gradient(75deg, var(--color-primary), transparent);
-    border-radius: 50%;
-    position: absolute;
-    transition: var(--transition);
-}
-
-.main__header-image {
-    position: relative;
-    width: 25rem;
-}
-
-.main__header-right:hover .main__header-circle {
-    filter: blur(15px);
-} */
 
 /* Pages Redirect */
 
