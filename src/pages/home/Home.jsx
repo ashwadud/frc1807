@@ -11,8 +11,8 @@ const Home = () => {
     <>
       <MainHeader/>
       <PagesDirect/>
-      <FAQs/>
-      <Quotes/>
+      {/* <FAQs/> */}
+      {/* <Quotes/> */}
       <Footer/>
     </>  
   )

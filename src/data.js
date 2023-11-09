@@ -467,12 +467,11 @@ export const robots = [
 ]
 
 const MemberImage = require('./images/logo.png')
-const WadudA = require('./images/ashwadud.jpg')
 
 export const bios = [
     {
         id: 1,
-        image: WadudA,
+        image: MemberImage,
         name: 'Ash Wadud',
         year: '2026',
         job: 'Programming/Web Design',
@@ -695,148 +694,148 @@ export const bios = [
         job: 'Business',
         desc: 'This is Liam’s first year on the robotics team! Liam joined the business sub-team. He is looking forward to making new friends. Liam joined the robotics team because he thought it would be a great experience. He is also a part of the Leo Club, Italian Honor Society, and National Honor Society. Liam’s hobbies include music, art, and gardening. After graduating from AHS, he plans on attending college.'
     },
-    {
-        id: 29,
-        image: MemberImage,
-        name: 'Nicholas Marques',
-        year: 2023,
-        job: 'Build',
-        desc: ''
-    },
-    {
-        id: 30,
-        image: MemberImage,
-        name: 'Evan Kaba',
-        year: 2023,
-        job: 'Build/Design',
-        desc: ''
-    },
-    {
-        id: 31,
-        image: MemberImage,
-        name: 'Andrew Sain',
-        year: 2023,
-        job: 'Design',
-        desc: ''
-    },
-    {
-        id: 32,
-        image: MemberImage,
-        name: 'Sydney Miller',
-        year: 2023,
-        job: 'Build',
-        desc: 'Sydney Miller has been on the robotics team for four years, and is a part of the build, mechanical, and leadership sub-teams. Sydney’s favorite part about robotics is the problem solving and adrenaline rush of getting everything done in time. Robotics is a great place to meet many different people and work together for the same goal. Sydney loves the late nights of working hard and spending extra time with her closest friends. She first learned of robotics at the 8th grade Step-Up Day. She saw a massive, complex robot from across the room and was immediately interested. Sydney enjoys all things STEM and had always wanted to focus on it further. She took a chance, applied for the team, and now four years later it was the best decision she ever made. Aside from robotics, Sydney is a part of the Gender Sexuality Alliance, History Honor Society, Science Honor Society, Math Honor Society, National Honor Society, Volleyball Club, Choir, and Philosophy Club. Her hobbies include music, art, reading, and spending time with friends and family. After graduating from AHS, Sydney plans on attending colleger aerospace and mechanical engineering.'
-    },
-    {
-        id: 33,
-        image: MemberImage,
-        name: 'Julia Valentino',
-        year: 2023,
-        job: 'Build',
-        desc: ''
-    },
-    {
-        id: 34,
-        image: MemberImage,
-        name: 'Olivia Pusczko',
-        year: 2023,
-        job: 'Build',
-        desc: 'Olivia Pusczko has been on the robotics team for three years, and is a part of the build, mechanical, and leadership sub-teams. Olivia’s favorite part about robotics is getting to work with everyone towards a similar goal. She also enjoys making friends, having fun building together, and seeing the robot come together. Olivia joined the robotics team because she was in Mr. Tackett’s class, and he asked her to come to the meetings. After learning about everything the team does, she stayed for the rest of the season and officially tried out the following year. Olivia was interested in finding new after school activities that would challenge her different ways. Aside from robotics, she is a part of the GSA, Volleyball Club, and Class Activities. Olivia’s hobbies include music, sleeping, hanging out with friends, and going to new places. After graduating from AHS, she plans on attending college for a major in accounting and finance with a minor in business management or marketing.'
-    },
-    {
-        id: 35,
-        image: MemberImage,
-        name: 'Gavin Elwell',
-        year: 2023,
-        job: 'Design',
-        desc: ''
-    },
-    {
-        id: 36,
-        image: MemberImage,
-        name: 'Drew Springer Heller',
-        year: 2023,
-        job: 'Programming',
-        desc: ''
-    },
-    {
-        id: 37,
-        image: MemberImage,
-        name: 'Joseph Forte',
-        year: 2023,
-        job: 'Programming',
-        desc: ''
-    },
-    {
-        id: 38,
-        image: MemberImage,
-        name: 'Vanisha Nagali',
-        year: 2023,
-        job: 'Machining',
-        desc: ''
-    },
-    {
-        id: 39,
-        image: MemberImage,
-        name: 'Jack Conroy',
-        year: 2023,
-        job: 'Machining',
-        desc: ''
-    },
-    {
-        id: 40,
-        image: MemberImage,
-        name: 'Arjun Singh',
-        year: 2023,
-        job: 'Machining/Strategy',
-        desc: ''
-    },
-    {
-        id: 41,
-        image: MemberImage,
-        name: 'Cal Christie',
-        year: 2023,
-        job: 'Machining',
-        desc: ''
-    },
-    {
-        id: 42,
-        image: MemberImage,
-        name: 'Gabriella Biello',
-        year: 2023,
-        job: 'Business',
-        desc: ''
-    },
-    {
-        id: 43,
-        image: MemberImage,
-        name: 'Amelia Tricker',
-        year: 2023,
-        job: 'Business',
-        desc: 'Amelia Tricker has been on the robotics team for four years, and is a part of the business sub-team. Her favorite part about robotics is getting to work in a collaborative environment and make great memories with her peers. Amelia joined the team because because she is interested in pursuing an avenue of business as a career, and the team was a great opportunity to learn unique skills in a realistic setting. Aside from robotics, she is a part of Senior Class Activities, Spanish Honor Society, FFA, and is a FIRST LEGO League Mentor. Amelia’s hobbies include painting her nails, fish keeping, reading, singing, and playing the piano. After graduating from AHS, she plans on attending college.'
-    },
-    {
-        id: 44,
-        image: MemberImage,
-        name: 'Marissa May',
-        year: 2023,
-        job: 'Business',
-        desc: ''
-    },
-    {
-        id: 45,
-        image: MemberImage,
-        name: 'Anthony Lotruglio',
-        year: 2023,
-        job: 'Business',
-        desc: ''
-    },
-    {
-        id: 46,
-        image: MemberImage,
-        name: 'Nick Schaffer',
-        year: 2023,
-        job: 'Programming',
-        desc: ''
-    }
+    // {
+    //     id: 29,
+    //     image: MemberImage,
+    //     name: 'Nicholas Marques',
+    //     year: 2023,
+    //     job: 'Build',
+    //     desc: ''
+    // },
+    // {
+    //     id: 30,
+    //     image: MemberImage,
+    //     name: 'Evan Kaba',
+    //     year: 2023,
+    //     job: 'Build/Design',
+    //     desc: ''
+    // },
+    // {
+    //     id: 31,
+    //     image: MemberImage,
+    //     name: 'Andrew Sain',
+    //     year: 2023,
+    //     job: 'Design',
+    //     desc: ''
+    // },
+    // {
+    //     id: 32,
+    //     image: MemberImage,
+    //     name: 'Sydney Miller',
+    //     year: 2023,
+    //     job: 'Build',
+    //     desc: 'Sydney Miller has been on the robotics team for four years, and is a part of the build, mechanical, and leadership sub-teams. Sydney’s favorite part about robotics is the problem solving and adrenaline rush of getting everything done in time. Robotics is a great place to meet many different people and work together for the same goal. Sydney loves the late nights of working hard and spending extra time with her closest friends. She first learned of robotics at the 8th grade Step-Up Day. She saw a massive, complex robot from across the room and was immediately interested. Sydney enjoys all things STEM and had always wanted to focus on it further. She took a chance, applied for the team, and now four years later it was the best decision she ever made. Aside from robotics, Sydney is a part of the Gender Sexuality Alliance, History Honor Society, Science Honor Society, Math Honor Society, National Honor Society, Volleyball Club, Choir, and Philosophy Club. Her hobbies include music, art, reading, and spending time with friends and family. After graduating from AHS, Sydney plans on attending colleger aerospace and mechanical engineering.'
+    // },
+    // {
+    //     id: 33,
+    //     image: MemberImage,
+    //     name: 'Julia Valentino',
+    //     year: 2023,
+    //     job: 'Build',
+    //     desc: ''
+    // },
+    // {
+    //     id: 34,
+    //     image: MemberImage,
+    //     name: 'Olivia Pusczko',
+    //     year: 2023,
+    //     job: 'Build',
+    //     desc: 'Olivia Pusczko has been on the robotics team for three years, and is a part of the build, mechanical, and leadership sub-teams. Olivia’s favorite part about robotics is getting to work with everyone towards a similar goal. She also enjoys making friends, having fun building together, and seeing the robot come together. Olivia joined the robotics team because she was in Mr. Tackett’s class, and he asked her to come to the meetings. After learning about everything the team does, she stayed for the rest of the season and officially tried out the following year. Olivia was interested in finding new after school activities that would challenge her different ways. Aside from robotics, she is a part of the GSA, Volleyball Club, and Class Activities. Olivia’s hobbies include music, sleeping, hanging out with friends, and going to new places. After graduating from AHS, she plans on attending college for a major in accounting and finance with a minor in business management or marketing.'
+    // },
+    // {
+    //     id: 35,
+    //     image: MemberImage,
+    //     name: 'Gavin Elwell',
+    //     year: 2023,
+    //     job: 'Design',
+    //     desc: ''
+    // },
+    // {
+    //     id: 36,
+    //     image: MemberImage,
+    //     name: 'Drew Springer Heller',
+    //     year: 2023,
+    //     job: 'Programming',
+    //     desc: ''
+    // },
+    // {
+    //     id: 37,
+    //     image: MemberImage,
+    //     name: 'Joseph Forte',
+    //     year: 2023,
+    //     job: 'Programming',
+    //     desc: ''
+    // },
+    // {
+    //     id: 38,
+    //     image: MemberImage,
+    //     name: 'Vanisha Nagali',
+    //     year: 2023,
+    //     job: 'Machining',
+    //     desc: ''
+    // },
+    // {
+    //     id: 39,
+    //     image: MemberImage,
+    //     name: 'Jack Conroy',
+    //     year: 2023,
+    //     job: 'Machining',
+    //     desc: ''
+    // },
+    // {
+    //     id: 40,
+    //     image: MemberImage,
+    //     name: 'Arjun Singh',
+    //     year: 2023,
+    //     job: 'Machining/Strategy',
+    //     desc: ''
+    // },
+    // {
+    //     id: 41,
+    //     image: MemberImage,
+    //     name: 'Cal Christie',
+    //     year: 2023,
+    //     job: 'Machining',
+    //     desc: ''
+    // },
+    // {
+    //     id: 42,
+    //     image: MemberImage,
+    //     name: 'Gabriella Biello',
+    //     year: 2023,
+    //     job: 'Business',
+    //     desc: ''
+    // },
+    // {
+    //     id: 43,
+    //     image: MemberImage,
+    //     name: 'Amelia Tricker',
+    //     year: 2023,
+    //     job: 'Business',
+    //     desc: 'Amelia Tricker has been on the robotics team for four years, and is a part of the business sub-team. Her favorite part about robotics is getting to work in a collaborative environment and make great memories with her peers. Amelia joined the team because because she is interested in pursuing an avenue of business as a career, and the team was a great opportunity to learn unique skills in a realistic setting. Aside from robotics, she is a part of Senior Class Activities, Spanish Honor Society, FFA, and is a FIRST LEGO League Mentor. Amelia’s hobbies include painting her nails, fish keeping, reading, singing, and playing the piano. After graduating from AHS, she plans on attending college.'
+    // },
+    // {
+    //     id: 44,
+    //     image: MemberImage,
+    //     name: 'Marissa May',
+    //     year: 2023,
+    //     job: 'Business',
+    //     desc: ''
+    // },
+    // {
+    //     id: 45,
+    //     image: MemberImage,
+    //     name: 'Anthony Lotruglio',
+    //     year: 2023,
+    //     job: 'Business',
+    //     desc: ''
+    // },
+    // {
+    //     id: 46,
+    //     image: MemberImage,
+    //     name: 'Nick Schaffer',
+    //     year: 2023,
+    //     job: 'Programming',
+    //     desc: ''
+    // }
 ]

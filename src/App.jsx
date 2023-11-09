@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Home from './pages/home/Home'
 import About from './pages/about/About'
-import Robots from './pages/robots/Robots'
+import Robots from './pages/robots/robots'
 import Resources from './pages/resources/Resources'
 import Sponsors from './pages/sponsors/Sponsors'
 import Bios from './pages/bios/Bios'
